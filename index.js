@@ -44,8 +44,19 @@
 
 // console.log(false + true);
 
-console.log(false - true);
+// console.log(false - true);
 
+//🙅‍♂️ Interview Question 1
+// Difference between null vs undefined 
+
+var iAmUseless = null;
+console.log(iAmUseless);
+console.log(typeof(iAmUseless)); 
+// 2nd JS bug 
+
+var iAmStandBy;
+console.log(iAmStandBy);
+console.log(typeof(iAmStandBy));
 
 
 
