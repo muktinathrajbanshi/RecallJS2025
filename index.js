@@ -76,12 +76,29 @@
 
 //🗣️🪸 Challenge
 
-NaN === NaN;
-Number.NaN === NaN;
-isNaN(NaN);
-isNaN(Number.NaN);
-Number.isNaN(NaN);
-console.log(Number.isNaN(NaN));
+// NaN === NaN;
+// Number.NaN === NaN;
+// isNaN(NaN);
+// isNaN(Number.NaN);
+// Number.isNaN(NaN);
+// console.log(Number.isNaN(NaN));
+
+//?5 Expressions and Operators
+
+// 1. Assignment operators
+// An assignment operators assigns a value to its left operand
+// based on the value of its right operand.
+// The simple assignment operator is equal (=)
+
+var x = 5;
+var y = 5;
+
+
+// console.log("Is both the x any y are equal " + x == y);
+// I will come when there is arise es6
+console.log(`Is both the x and y are equal : ${x == y}`);
+
+
 
 
 
