@@ -65,14 +65,24 @@
 // In other words, it is a variable in global scope.
 // The initial value of NaN is Not-A-Number
 
-var myPhoneNumber = 9823959810;
-var myName = "muktinath rajbanshi";
+// var myPhoneNumber = 9823959810;
+// var myName = "muktinath rajbanshi";
 
-if(isNaN(myName)) {
-    console.log("Plz enter valid number");
-}
+// if(isNaN(myName)) {
+//     console.log("Plz enter valid number");
+// }
 
-console.log(isNaN(myPhoneNumber), isNaN(myName));
+// console.log(isNaN(myPhoneNumber), isNaN(myName));
+
+//🗣️🪸 Challenge
+
+NaN === NaN;
+Number.NaN === NaN;
+isNaN(NaN);
+isNaN(Number.NaN);
+Number.isNaN(NaN);
+console.log(Number.isNaN(NaN));
+
 
 
 
