@@ -101,15 +101,24 @@
 
 //! 2. Arithmetic operators
 // An arithmetic operator takes numerical values
-// (either literals or variables) as their operandsand
+// (either literals or variables) as their operands and
 // returns a single numerical value.
 
-console.log(3+3);
-console.log(10-5);
-console.log(20/5);
-console.log(5*6);
+// console.log(3+3);
+// console.log(10-5);
+// console.log(20/5);
+// console.log(5*6);
 
-console.log("Remainder Operator " + 81%8);
+// console.log("Remainder Operator " + 81%8);
+
+//! 3. 🙅‍♂️Increment and Decrement operator
+// Operator: x++ or ++x
+// If used postfix, with operator after operand (for example, x++),
+// the increment operator increments and returns the value before incrementing.
+// If used prefix, with operator before operand (for example, ++x),
+// If used prefix, with operator before operand (for example, ++x),
+// the increment operator increments and returns the value after incrementing.
+
 
 
 
