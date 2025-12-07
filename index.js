@@ -85,18 +85,35 @@
 
 //?5 Expressions and Operators
 
-// 1. Assignment operators
+//! 1. Assignment operators
 // An assignment operators assigns a value to its left operand
 // based on the value of its right operand.
 // The simple assignment operator is equal (=)
 
-var x = 5;
-var y = 5;
+// var x = 5;
+// var y = 5;
 
 
 // console.log("Is both the x any y are equal " + x == y);
 // I will come when there is arise es6
-console.log(`Is both the x and y are equal : ${x == y}`);
+// console.log(`Is both the x and y are equal : ${x == y}`);
+
+
+//! 2. Arithmetic operators
+// An arithmetic operator takes numerical values
+// (either literals or variables) as their operandsand
+// returns a single numerical value.
+
+console.log(3+3);
+console.log(10-5);
+console.log(20/5);
+console.log(5*6);
+
+console.log("Remainder Operator " + 81%8);
+
+
+
+
 
 
 
