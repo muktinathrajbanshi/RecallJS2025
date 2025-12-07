@@ -49,14 +49,31 @@
 //🙅‍♂️ Interview Question 1
 // Difference between null vs undefined 
 
-var iAmUseless = null;
-console.log(iAmUseless);
-console.log(typeof(iAmUseless)); 
-// 2nd JS bug 
+// var iAmUseless = null;
+// console.log(iAmUseless);
+// console.log(typeof(iAmUseless)); 
+// // 2nd JS bug 
 
-var iAmStandBy;
-console.log(iAmStandBy);
-console.log(typeof(iAmStandBy));
+// var iAmStandBy;
+// console.log(iAmStandBy);
+// console.log(typeof(iAmStandBy));
+
+//🙅‍♂️ Interview Question 2
+// What is NaN ?
+
+// NaN is a property of the global object.
+// In other words, it is a variable in global scope.
+// The initial value of NaN is Not-A-Number
+
+var myPhoneNumber = 9823959810;
+var myName = "muktinath rajbanshi";
+
+if(isNaN(myName)) {
+    console.log("Plz enter valid number");
+}
+
+console.log(isNaN(myPhoneNumber), isNaN(myName));
+
 
 
 
