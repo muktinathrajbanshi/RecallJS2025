@@ -214,6 +214,27 @@
 //? 3. Write a program to swap two numbers.
 //? 4. Write a program to swap two numbers without using third variable.
 
+// sol 1: 
+// console.log(3**3); //3*3*3
+
+// sol 2:
+// console.log(5 - "muktinath");
+
+// sol 3: 
+var a = 5;
+var b = 10;
+
+// output b=5; a=10
+var c = b; // c = 10
+b = a; // b = 5;
+a = c;
+console.log("the value of a is " + a);
+console.log("the value of b is " + b);
+
+
+
+
+
 
 
 
