@@ -135,10 +135,41 @@
 //? If used prefix, with operator before operand (for example, ++x),
 //? the increment operator increments and returns the value after incrementing.
 
-var num = 15;
-var newNum = --num +4;
-console.log(num);
-console.log(newNum);
+// var num = 15;
+// var newNum = --num +4;
+// console.log(num);
+// console.log(newNum);
+
+
+//! 4. 🙅‍♂️Comparison operators
+//? A comparison operator compares its operands and returns a logical value based on whether the
+//? comparison is true.
+
+var a = 30;
+var b = 10;
+
+// 1. Equal operator (==)
+// console.log(a == b);
+
+// 2. Not equal operator (!=)
+// console.log(a != b);
+
+// 3. Greater than operator (>)
+// console.log(a > b);
+
+// 4. Greater than or equal (>=)
+// console.log(a >= b);
+
+// 5. Less than (<)
+// console.log(a < b);
+
+// 6. Less than or equal (<=)
+console.log(a <= b);
+
+
+
+
+
 
 
 
