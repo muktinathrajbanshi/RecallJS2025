@@ -251,14 +251,30 @@
 //? What is the Difference between == vs === ?
 
 // soln 
-var num1 = 5;
-var num2 = "5";
-console.log(typeof(num1));
-console.log(typeof(num2));
-console.log(num2);
+// var num1 = 5;
+// var num2 = "5";
+// console.log(typeof(num1));
+// console.log(typeof(num2));
+// console.log(num2);
 
 
-console.log(num1 === num2);
+// console.log(num1 === num2);
+
+//! 6. 🙅‍♂️Control Statement & Loops
+//? 1. If..Else
+//? 2. Switch Statement
+//? 3. While Loop
+//? 4. Do-While Loop
+//? 5. For Loop
+//? 6. For in Loop
+//? 7. For of Loop
+//? 8. Conditional (ternary) operator
+
+
+//?! 6.1. If..Else
+//? The if statement executes a statement if a specified condition is truthy.
+//? If the condition is falsy, another statement can be executed.
+
 
 
 
