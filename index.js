@@ -202,10 +202,17 @@
 // var string = firstName+lastName;
 // console.log(string);
 
-console.log("Hello World");
-console.log("hello " + "world");
-var myName = "muktinath";
-console.log(myName + " rajbanshi");
+// console.log("Hello World");
+// console.log("hello " + "world");
+// var myName = "muktinath";
+// console.log(myName + " rajbanshi");
+
+
+//🗣️🪸 Challenges
+//? 1. What will be the output of 3**3?
+//? 2. What will be the output, when we add a number and a string?
+//? 3. Write a program to swap two numbers.
+//? 4. Write a program to swap two numbers without using third variable.
 
 
 
