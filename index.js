@@ -233,20 +233,31 @@
 
 // sol 4: ✅
 
-var a = 5;
-var b = 10;
+// var a = 5;
+// var b = 10;
 
 // output b=5; a=10
 
-a = a+b; // a = 15
-b = a - b; // b = 5
-a = a - b; // a =10
+// a = a+b; // a = 15
+// b = a - b; // b = 5
+// a = a - b; // a =10
 
-console.log("the value of a is " + a);
-console.log("the value of b is " + b);
+// console.log("the value of a is " + a);
+// console.log("the value of b is " + b);
 
 
+//🙅‍♂️ Interview Question 3
 
+//? What is the Difference between == vs === ?
+
+// soln 
+var num1 = 5;
+var num2 = "5";
+console.log(typeof(num1));
+console.log(typeof(num2));
+
+
+console.log(num1 == num2);
 
 
 
