@@ -170,8 +170,8 @@
 //? Logical operators are typically used with Boolean (logical) values;
 //? when they are, they return a Boolean value.
 
-var a = 30;
-var b = -20;
+// var a = 30;
+// var b = -20;
 
 // 1. Logical AND (&&)
 //? The logical AND (&&) operator (logical conjunction) for a set of operands is true if and only if
@@ -190,8 +190,26 @@ var b = -20;
 //? The logical NOT (!) operator (logical complement, negation)
 //? takes truth to falsity and vice versa.
 
-console.log(!((a>0) || (b<0)));
-console.log(!false);
+// console.log(!((a>0) || (b<0)));
+// console.log(!false);
+
+//! 5. 🙅‍♂️String/Concatenation operators
+//? The concatenation operator (+) concatenates two string values together, returning another string
+//? that is the union of the two operand strings.
+
+// var firstName = "Muktinath";
+// var lastName = " Rajbanshi";
+// var string = firstName+lastName;
+// console.log(string);
+
+console.log("Hello World");
+console.log("hello " + "world");
+var myName = "muktinath";
+console.log(myName + " rajbanshi");
+
+
+
+
 
 
 
