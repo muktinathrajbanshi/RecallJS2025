@@ -145,8 +145,8 @@
 //? A comparison operator compares its operands and returns a logical value based on whether the
 //? comparison is true.
 
-var a = 30;
-var b = 10;
+// var a = 30;
+// var b = 10;
 
 // 1. Equal operator (==)
 // console.log(a == b);
@@ -164,7 +164,34 @@ var b = 10;
 // console.log(a < b);
 
 // 6. Less than or equal (<=)
-console.log(a <= b);
+// console.log(a <= b);
+
+//! 5. 🙅‍♂️Logical operators
+//? Logical operators are typically used with Boolean (logical) values;
+//? when they are, they return a Boolean value.
+
+var a = 30;
+var b = -20;
+
+// 1. Logical AND (&&)
+//? The logical AND (&&) operator (logical conjunction) for a set of operands is true if and only if
+//? all of its expression are true.
+
+// console.log(a > b && b > -50 && b < 0);
+
+
+// 2. Logical OR (||)
+//? The logical OR (||) operator (logical disjunction) for a set of operands is true if and only if
+//? one or more of its operands is true.
+
+// console.log((a < b) || (b > 0) || (b > 0));
+
+// 3. Logical NOT (!)
+//? The logical NOT (!) operator (logical complement, negation)
+//? takes truth to falsity and vice versa.
+
+console.log(!((a>0) || (b<0)));
+console.log(!false);
 
 
 
