@@ -112,12 +112,33 @@
 // console.log("Remainder Operator " + 81%8);
 
 //! 3. 🙅‍♂️Increment and Decrement operator
-// Operator: x++ or ++x
+// Operator: x++ or ++x or x-- or --x
 // If used postfix, with operator after operand (for example, x++),
 // the increment operator increments and returns the value before incrementing.
-// If used prefix, with operator before operand (for example, ++x),
-// If used prefix, with operator before operand (for example, ++x),
-// the increment operator increments and returns the value after incrementing.
+
+//? 1. postfix example:
+// var num = 15;
+// var newNum = num-- +4;
+// console.log(num);
+// console.log(newNum);
+
+//? Postfix increment operator means the expression is evaluated first using the original value
+//? of the variable and then the
+//? variable is incremented(increased).
+
+
+
+//? 1. prefix example:
+//? Prefix increment operator means the variable is incremented first and then
+//? the expression is evaluated using the new value of the variable.
+
+//? If used prefix, with operator before operand (for example, ++x),
+//? the increment operator increments and returns the value after incrementing.
+
+var num = 15;
+var newNum = --num +4;
+console.log(num);
+console.log(newNum);
 
 
 
