@@ -327,9 +327,28 @@
 //     console.log("You are not eligible to vote");   
 // }
 
-var age = 15;
-console.log((age >= 18) ? "you are eligible to vote" :  "You are not eligible to vote"); 
+// var age = 15;
+// console.log((age >= 18) ? "you are eligible to vote" :  "You are not eligible to vote"); 
 
+//?! 6.3. Switch Statement
+//? Evaluates an expression, matching the expression's value to a case clause, and executes statements
+//? associated with that case.
+
+//? 1. Without break statement
+// Find the Area of circle, triangle and rectangle?
+
+var area = "square";
+var PI = 3.142, l=5, b=4, r=3;
+
+if(area == "circle") {
+    console.log("the area of circle is : " + PI*r**2);  
+} else if(area == "triangle") {
+    console.log("the area of triangle is : " + (l*b)/2);
+} else if(area == "rectangle") {
+    console.log("the area of rectangle is : " + (l*b));
+} else {
+    console.log("please enter valid data");
+}
 
 
 
