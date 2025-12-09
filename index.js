@@ -387,12 +387,19 @@
 
 //?! 6.5. Do-While Loop Statement
 
-var num = 20;
-do {
+// var num = 20;
+// do {
+//     debugger;
+//     console.log(num); //infinite loop
+//     num++;
+// } while (num <= 10); 
+
+//?! 6.6. For Loop Statement
+for (num = 0; num<=10; num++) {
     debugger;
-    console.log(num); //infinite loop
-    num++;
-} while (num <= 10); 
+    console.log(num);
+    
+}
 
 
 
