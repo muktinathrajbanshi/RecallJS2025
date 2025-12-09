@@ -290,21 +290,31 @@
 //! 1. Write a program that works out whether if a given year is a leap year or not ?
 //? A normal year has 365 days, leap years have 366, with an extra day in February.
 
-var year = 2020;
-debugger;
-if(year % 4 === 0) {
-    if(year % 100 === 0) {
-        if(year % 400 === 0) {
-               console.log("the " +year+ " is a leap year!"); 
-        }else {
-            console.log("the " +year+ " is not a leap year!");
-        }
-    }else {
-        console.log("the " +year+ " is a leap year!");  
-    }
-}else {
-    console.log("the " +year+ " is not a leap year!");
+// var year = 2020;
+// debugger;
+// if(year % 4 === 0) {
+//     if(year % 100 === 0) {
+//         if(year % 400 === 0) {
+//                console.log("the " +year+ " is a leap year!"); 
+//         }else {
+//             console.log("the " +year+ " is not a leap year!");
+//         }
+//     }else {
+//         console.log("the " +year+ " is a leap year!");  
+//     }
+// }else {
+//     console.log("the " +year+ " is not a leap year!");
     
+// }
+
+//! 2. What is truthy and falsy values in Javascript?
+//? we have total 5 falsy values in javascript
+// 👉 0,"",undefined,null,NaN,false** is false anyway
+
+if(score = 0) {
+    console.log("OMG, We loss the game 😪");  
+} else {
+    console.log("Yay, We won the game 😀");
 }
 
 
