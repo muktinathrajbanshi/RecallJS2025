@@ -275,6 +275,16 @@
 //? The if statement executes a statement if a specified condition is truthy.
 //? If the condition is falsy, another statement can be executed.
 
+// if raining = raincoat
+// else no raincoat
+
+var tom_r = "sunny";
+
+if (tom_r == "rain") {
+    console.log("take a raincoat");
+} else {
+    console.log("No need to take a raincoat"); 
+}
 
 
 
