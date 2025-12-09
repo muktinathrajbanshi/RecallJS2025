@@ -311,13 +311,24 @@
 //? we have total 5 falsy values in javascript
 // 👉 0,"",undefined,null,NaN,false** is false anyway
 
-if(score = 0) {
-    console.log("OMG, We loss the game 😪");  
-} else {
-    console.log("Yay, We won the game 😀");
-}
+// if(score = 0) {
+//     console.log("OMG, We loss the game 😪");  
+// } else {
+//     console.log("Yay, We won the game 😀");
+// }
 
+//?! 6.2. Conditional (ternary) operator
+//? The conditional (ternary) operator is the only JavaScript operator that takes three operands
 
+// var age = 17;
+// if(age >= 18) {
+//     console.log("you are eligible to vote"); 
+// } else {
+//     console.log("You are not eligible to vote");   
+// }
+
+var age = 15;
+console.log((age >= 18) ? "you are eligible to vote" :  "You are not eligible to vote"); 
 
 
 
