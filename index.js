@@ -350,23 +350,23 @@
 //     console.log("please enter valid data");
 // }
 
-var area = "ggg";
-var PI = 3.142, l=5, b=4, r=3;
+// var area = "ggg";
+// var PI = 3.142, l=5, b=4, r=3;
 
 
-switch(area) {
-    case "circle":
-       console.log("the area of circle is : " + PI*r**2); 
-       break;
-    case "triangle":
-        console.log("the area of triangle is : " + (l*b)/2);
-         break;
-    case "rectangle":
-         console.log("the area of rectangle is : " + (l*b));
-          break;
-    default:
-       console.log("please enter valid data");  
-}
+// switch(area) {
+//     case "circle":
+//        console.log("the area of circle is : " + PI*r**2); 
+//        break;
+//     case "triangle":
+//         console.log("the area of triangle is : " + (l*b)/2);
+//          break;
+//     case "rectangle":
+//          console.log("the area of rectangle is : " + (l*b));
+//           break;
+//     default:
+//        console.log("please enter valid data");  
+// }
 
 
 // 🤫break
@@ -374,6 +374,16 @@ switch(area) {
 // statement and transfers
 // program control to the statement following the terminated statement.
 
+//?! 6.4. While Loop Statement
+//? The while statement creates a loop that executes a specified statement as long as the test condition
+//? evaluates to true.
+
+var num = 20;
+// block scope 
+while (num <= 10) {
+    console.log(num); //infinite loop
+    num++;
+}
 
 
 
