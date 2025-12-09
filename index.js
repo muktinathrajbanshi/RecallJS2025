@@ -395,10 +395,19 @@
 // } while (num <= 10); 
 
 //?! 6.6. For Loop Statement
-for (num = 0; num<=10; num++) {
-    debugger;
-    console.log(num);
+// for (var num = 0; num<=10; num++) {
+//     debugger;
+//     console.log(num);
     
+// }
+
+//🗣️🪸 Challenges
+//? Javascript program to print table for given number (8)?
+// output : 8 * 1 = 8 
+
+for(var num = 1; num<=10; num++){
+    var eight = 8;
+    console.log(eight + " * " + num + " = " +(eight*num));
 }
 
 
