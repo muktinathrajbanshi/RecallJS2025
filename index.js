@@ -378,13 +378,21 @@
 //? The while statement creates a loop that executes a specified statement as long as the test condition
 //? evaluates to true.
 
+// var num = 20;
+// // block scope 
+// while (num <= 10) {
+//     console.log(num); //infinite loop
+//     num++;
+// }
+
+//?! 6.5. Do-While Loop Statement
+
 var num = 20;
-// block scope 
-while (num <= 10) {
+do {
+    debugger;
     console.log(num); //infinite loop
     num++;
-}
-
+} while (num <= 10); 
 
 
 
