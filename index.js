@@ -405,12 +405,22 @@
 //? Javascript program to print table for given number (8)?
 // output : 8 * 1 = 8 
 
-for(var num = 1; num<=10; num++){
-    var eight = 8;
-    console.log(eight + " * " + num + " = " +(eight*num));
-}
+// for(var num = 1; num<=10; num++){
+//     var eight = 8;
+//     console.log(eight + " * " + num + " = " +(eight*num));
+// }
 
+//! 7. 👉 Functions in JavaScript
+//? A Javascript function is a block of code designed to perform a particular task.
 
+//? 7.1Function Definition
+//? Before we use a function, we need to define it.
+//? A function definition (also called a function declaration, or function statement) consists of the
+//? function keyword, followed by:
+
+//? The name of the function.
+//? A list of parameters to the function, enclosed in parentheses and separated by commas.
+//? The JavaScript statements that define the function, enclosed in curly brackets, {...}.
 
 
 
