@@ -554,15 +554,19 @@
 //         8 * 2 = 16
 //         8 * 10 = 80
 
-    for(let num = 1; num <=10; num++){
-        let tableOf = 8;
-        // console.log(tableOf + " * " + num + " = " + tableOf * num);
-        console.log(` ${tableOf} * ${num} = ${tableOf * num} `);      
+    // for(let num = 1; num <=10; num++){
+    //     let tableOf = 8;
+    //     // console.log(tableOf + " * " + num + " = " + tableOf * num);
+    //     console.log(` ${tableOf} * ${num} = ${tableOf * num} `);       
+    // }
+
+    //! 3. Default Parameters 
+    //? Default function parameters allow named parameters to be initialized with default values
+    //? if no value or undefined is passed.
+
+    function mult(a, b = 5) {
+        return a * b;
     }
 
-
-
-
-
-
-
+    console.log(mult(3));
+    
