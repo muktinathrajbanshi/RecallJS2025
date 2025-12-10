@@ -477,8 +477,20 @@
 //?! 7.3 Function expressions
 //? Function expressions simply means create a function and put it into the variable.
 
+// function sum(a, b) {
+//     var total = a+b;
+//     console.log(total); 
+// }
+// var funExp = sum(40, 50);
+// funExp;
+
+//?! 7.4 Return keywords
+//? When Javascript reaches a return statement, the function will stop executing.
+//? Functions often compute a return value.
+//? The return value is "returned" back to the "caller"
+
 function sum(a, b) {
-    var total = a+b;
-    console.log(total); 
+    return total = a+b;
 }
-var funExp = sum(40, 50);
+var funExp = sum(50, 50);
+console.log("The sum of two num is " + funExp);
