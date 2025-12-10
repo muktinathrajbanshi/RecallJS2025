@@ -514,12 +514,40 @@
 // 🙏🙏 Features of ECMAScript 2015 also known as ES6 ✅🙅‍♂️
 //! 1. LET VS CONST VS VAR
 
-var myName = "muktinath rajbanshi";
-console.log(myName);
-myName = "milan rajbanshi";
-console.log(myName);
+// var myName = "muktinath rajbanshi";
+// console.log(myName);
+// myName = "milan rajbanshi";
+// console.log(myName);
+
+// let myName = "hirubba rajbanshi";
+// console.log(myName);
+// myName = "milan rajbanshi";
+// console.log(myName);
+
+// const myName = "hirubba rajbanshi";
+// console.log(myName);
+// myName = "nimda rajbanshi";
+// console.log(myName);
 
 //? var => Function scope
+
+function biodata() {
+    const myFirstName = "muktinath";
+    console.log(myFirstName);  
+
+    if(true) {
+        const myLastName = "rajbanshi";
+        console.log("Inner " + myLastName);
+        console.log("Inner " + myFirstName);   
+    }
+     console.log("InnerOuter " + myLastName);
+}
+console.log(myFirstName);
+
+
+biodata();
+
+
 //? let and const => Block Scope
 
 
