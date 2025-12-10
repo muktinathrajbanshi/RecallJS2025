@@ -530,25 +530,38 @@
 // console.log(myName);
 
 //? var => Function scope
-
-function biodata() {
-    const myFirstName = "muktinath";
-    console.log(myFirstName);  
-
-    if(true) {
-        const myLastName = "rajbanshi";
-        console.log("Inner " + myLastName);
-        console.log("Inner " + myFirstName);   
-    }
-     console.log("InnerOuter " + myLastName);
-}
-console.log(myFirstName);
-
-
-biodata();
-
-
 //? let and const => Block Scope
+
+// function biodata() {
+//     const myFirstName = "muktinath";
+//     console.log(myFirstName);  
+
+//     if(true) {
+//         const myLastName = "rajbanshi";
+//         console.log("Inner " + myLastName);
+//         console.log("Inner " + myFirstName);   
+//     }
+//      console.log("InnerOuter " + myLastName);
+// }
+// console.log(myFirstName);
+
+// biodata();
+
+//! 2. Template literals (Template strings)
+//? JavaScript program to print table for given number (8) ?
+
+// output: 8 * 1 = 8
+//         8 * 2 = 16
+//         8 * 10 = 80
+
+    for(let num = 1; num <=10; num++){
+        let tableOf = 8;
+        // console.log(tableOf + " * " + num + " = " + tableOf * num);
+        console.log(` ${tableOf} * ${num} = ${tableOf * num} `);      
+    }
+
+
+
 
 
 
