@@ -413,7 +413,7 @@
 //! 7. 👉 Functions in JavaScript
 //? A Javascript function is a block of code designed to perform a particular task.
 
-//? 7.1Function Definition
+//?! 7.1Function Definition
 //? Before we use a function, we need to define it.
 //? A function definition (also called a function declaration, or function statement) consists of the
 //? function keyword, followed by:
@@ -422,8 +422,23 @@
 //? A list of parameters to the function, enclosed in parentheses and separated by commas.
 //? The JavaScript statements that define the function, enclosed in curly brackets, {...}.
 
+// var a = 10;
+// var b = 20;
+// var sum = a+b;
+// console.log(sum);
 
+function sum() {
+    var a = 10, b = 20;
+    var total = a+b;
+    console.log(total);
+    
+}
 
+//?! 7.2 Calling functions
+//? Defining a function does not execute it.
+//? A JavaScript function is executed when "something" invokes it (calls it).
+
+sum();
 
 
 
