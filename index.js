@@ -451,14 +451,26 @@
 //? Function parameters are the names listed in the function's definition.
 //? Function arguments are the real values passed to the function.
 
-function sum(a, b) {
-    var total = a+b;
-    console.log(total); 
-}
-sum();
-sum(20, 30);
-sum(50, 50);
-sum(5, 6);
+// function sum(a, b) {
+//     var total = a+b;
+//     console.log(total); 
+// }
+// sum();
+// sum(20, 30);
+// sum(50, 50);
+// sum(5, 6);
 
+//🙅‍♂️ Interview Question 4
+//? Why Functions?
+
+//? You can reuse code: Define the code once, and use it many times.
+//? You can use the same code many times with different arguments, to produce different results.
+
+//? OR
+
+//? A function is a group of reusable code which can be called anywhere in your program.
+//? This eliminates the need of writing the same code again and again.
+
+// DRY => do not repeat yourself 
 
 
