@@ -501,10 +501,27 @@
 //? stack for example)
 //? or "anonymous" function expressions.
 
-var funExp = function (a, b) {
-    return total = a+b;
-}
+// var funExp = function (a, b) {
+//     return total = a+b;
+// }
 
-var sum = funExp(75, 15);
-var sum1 = funExp(50, 50);
-console.log(sum > sum1);
+// var sum = funExp(75, 15);
+// var sum1 = funExp(50, 50);
+// console.log(sum > sum1);
+
+// *************************************
+// 😎 Now It's Time for Modern JavaScript 😍🤪
+// 🙏🙏 Features of ECMAScript 2015 also known as ES6 ✅🙅‍♂️
+//! 1. LET VS CONST VS VAR
+
+var myName = "muktinath rajbanshi";
+console.log(myName);
+myName = "milan rajbanshi";
+console.log(myName);
+
+//? var => Function scope
+//? let and const => Block Scope
+
+
+
+
