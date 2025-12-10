@@ -489,8 +489,22 @@
 //? Functions often compute a return value.
 //? The return value is "returned" back to the "caller"
 
-function sum(a, b) {
+// function sum(a, b) {
+//     return total = a+b;
+// }
+// var funExp = sum(50, 50);
+// console.log("The sum of two num is " + funExp);
+
+//?! 7.4 Anonymous Function
+//? A function expression is similar to and has the same syntax as a function declaration one can 
+//? define "named" function expressions (where the name of the expression might be used in the call
+//? stack for example)
+//? or "anonymous" function expressions.
+
+var funExp = function (a, b) {
     return total = a+b;
 }
-var funExp = sum(50, 50);
-console.log("The sum of two num is " + funExp);
+
+var sum = funExp(75, 15);
+var sum1 = funExp(50, 50);
+console.log(sum > sum1);
