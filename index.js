@@ -427,24 +427,38 @@
 // var sum = a+b;
 // console.log(sum);
 
-function sum() {
-    var a = 10, b = 20;
-    var total = a+b;
-    console.log(total);
+// function sum() {
+//     var a = 10, b = 20;
+//     var total = a+b;
+//     console.log(total);
     
-}
+// }
 
 //?! 7.2 Calling functions
 //? Defining a function does not execute it.
 //? A JavaScript function is executed when "something" invokes it (calls it).
 
+// function sum() {
+//     var a = 10, b = 20;
+//     var total = a+b;
+//     console.log(total);
+    
+// }
+// sum();
+
+//🗣️🪸 Challenges time
+//? 1. What is the difference between function parameter vs function arguments?
+//? Function parameters are the names listed in the function's definition.
+//? Function arguments are the real values passed to the function.
+
+function sum(a, b) {
+    var total = a+b;
+    console.log(total); 
+}
 sum();
-
-
-
-
-
-
+sum(20, 30);
+sum(50, 50);
+sum(5, 6);
 
 
 
