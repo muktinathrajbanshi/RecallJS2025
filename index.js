@@ -650,5 +650,13 @@
      //? Returns the first (least) index of an element within the array equal
      //? to an element, or -1 if none is found. It search the element from the 0th index number
 
-    var myFriends = ["muktinath", "ramesh", "arjun", "krishna"];
+    // var myFriends = ["muktinath", "ramesh", "arjun", "krishna", "arjun"];
 
+    // console.log(myFriends.indexOf("Arjun", 3));
+
+     //? Array.prototype.lastIndexOf() 👨‍🎓👨‍🎓👨‍🎓
+    // var myFriends = ["muktinath", "ramesh", "arjun", "krishna", "arjun"];
+
+    // console.log(myFriends.lastIndexOf("krishna"));
+
+    
