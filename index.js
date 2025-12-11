@@ -660,6 +660,16 @@
     // console.log(myFriends.lastIndexOf("krishna"));
 
     //? Array.prototype.includes() 👨‍🎓👨‍🎓👨‍🎓
-    var myFriends = ["muktinath", "ramesh", "arjun", "krishna"];
+    // var myFriends = ["muktinath", "ramesh", "arjun", "krishna"];
 
-    console.log(myFriends.includes("ramesh"));
+    // console.log(myFriends.includes("ramesh"));
+
+    //?! search with filteration find() 
+    //? Returns the found element in the array if some element in the array satisfies the testing 
+    //? function or undefined.
+
+    const prices = [200, 300, 350, 400, 450, 500, 600];
+
+    // const elements = prices.find((curElem) => curElem < 400);
+
+    console.log(prices.find((curElem) => curElem < 400));
