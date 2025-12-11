@@ -640,4 +640,8 @@
     myFriends.forEach(function (element, index, array) {
         console.log(element + " index : " + index + "  " + array);
     });
+
+    myFriends.forEach((element, index, array) => {
+    console.log(element + " index : " + index + "  " + array);
+    });
     
