@@ -587,8 +587,24 @@
     
     //! 8. 👉 Arrays in JavaScript
     //? When we use var, we can stored only one value at a time.
+    // var frnd1 = "ramesh";
+    // var frnd2 = "arjun";
+    // var frnd3 = "harish";
+
+    // var myFriends = ["ramesh", "arjun", "harish", 23, male];
+
+
     //? When we feel like storing multiple values in one variable then instead of var, we will use
     //? an Array.
     //? In JavaScript, we have an Array class, and arrays are the prototype of this class.
 
     //? example 😎
+
+    // var myFriends = new Array; //optional
+    // var myFriends = ["ramesh", "arjun", "harish", 23, male];
+
+     //! 8.1 👉 Traversal in Array
+     //? navigate through an array
+     //? If we want to get the single data at a time and also if we want to change the data
+    //? If we want to check the length of data
+    //? we use for loop to navigate
