@@ -582,7 +582,13 @@
 
     // 🕵️‍♂️ How to convert in into Fat Arrow Function
     
-    const sum = () => `the sum of the two number is ${(a = 6) + (b = 6)}`;
-    console.log(sum());
+    // const sum = () => `the sum of the two number is ${(a = 6) + (b = 6)}`;
+    // console.log(sum());
     
-    
+    //! 8. 👉 Arrays in JavaScript
+    //? When we use var, we can stored only one value at a time.
+    //? When we feel like storing multiple values in one variable then instead of var, we will use
+    //? an Array.
+    //? In JavaScript, we have an Array class, and arrays are the prototype of this class.
+
+    //? example 😎
