@@ -635,13 +635,20 @@
     //? Array.prototype.forEach() 👨‍✈️👨‍✈️
     //? Calls a function for each element in the array.
 
+    // var myFriends = ["muktinath", "ramesh", "arjun", "krishna"];
+
+    // myFriends.forEach(function (element, index, array) {
+    //     console.log(element + " index : " + index + "  " + array);
+    // });
+
+    // myFriends.forEach((element, index, array) => {
+    // console.log(element + " index : " + index + "  " + array);
+    // });
+    
+     //! 8.1 👉 Searching and Filter in an Array
+     //? Array.prototype.indexOf() 👨‍🎓👨‍🎓👨‍🎓
+     //? Returns the first (least) index of an element within the array equal
+     //? to an element, or -1 if none is found. It search the element from the 0th index number
+
     var myFriends = ["muktinath", "ramesh", "arjun", "krishna"];
 
-    myFriends.forEach(function (element, index, array) {
-        console.log(element + " index : " + index + "  " + array);
-    });
-
-    myFriends.forEach((element, index, array) => {
-    console.log(element + " index : " + index + "  " + array);
-    });
-    
