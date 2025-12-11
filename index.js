@@ -564,9 +564,25 @@
     //? Default function parameters allow named parameters to be initialized with default values
     //? if no value or undefined is passed.
 
-    function mult(a, b = 5) {
-        return a * b;
-    }
+    // function mult(a, b = 5) {
+    //     return a * b;
+    // }
 
-    console.log(mult(3));
+    // console.log(mult(3));
+
+    //! 4. Fat Arror Function
+    // 🧜‍♂️ Normal Way of writing function
+
+    // function sum() {
+    //     let a = 5; b = 6;
+    //     let sum = a + b;
+    //     return `the sum of the two number is ${sum}`;
+    // }
+    // console.log(sum());
+
+    // 🕵️‍♂️ How to convert in into Fat Arrow Function
+    
+    const sum = () => `the sum of the two number is ${(a = 6) + (b = 6)}`;
+    console.log(sum());
+    
     
