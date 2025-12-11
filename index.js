@@ -659,4 +659,7 @@
 
     // console.log(myFriends.lastIndexOf("krishna"));
 
-    
+    //? Array.prototype.includes() 👨‍🎓👨‍🎓👨‍🎓
+    var myFriends = ["muktinath", "ramesh", "arjun", "krishna"];
+
+    console.log(myFriends.includes("ramesh"));
