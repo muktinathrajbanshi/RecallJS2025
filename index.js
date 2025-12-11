@@ -606,5 +606,38 @@
      //! 8.1 👉 Traversal in Array
      //? navigate through an array
      //? If we want to get the single data at a time and also if we want to change the data
+
+    // var myFriends = ["muktinath", "ramesh", "arjun", "harish", "ramesh", "arjun", "krishna"];
+    // console.log(myFriends[myFriends.length - 1]);
+
     //? If we want to check the length of data
+    // console.log(myFriends.length);
+    
+
     //? we use for loop to navigate
+    // var myFriends = ["muktinath", "ramesh", "arjun", "krishna"];
+
+    // for(var i = 0; i<myFriends.length; i++) {
+    //     console.log(myFriends[i]);
+    // }
+
+    //? After ES6 we have for..in and for..of loop too
+    // var myFriends = ["muktinath", "ramesh", "arjun", "krishna"];
+
+    // for(let elements in myFriends) {
+    //     console.log(elements);   
+    // }
+
+    // for(let elements of myFriends) {
+    //     console.log(elements);
+    // }
+
+    //? Array.prototype.forEach() 👨‍✈️👨‍✈️
+    //? Calls a function for each element in the array.
+
+    var myFriends = ["muktinath", "ramesh", "arjun", "krishna"];
+
+    myFriends.forEach(function (element, index, array) {
+        console.log(element + " index : " + index + "  " + array);
+    });
+    
