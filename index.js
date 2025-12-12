@@ -700,22 +700,36 @@
     //? their sequence of UTF 16 code units value.
 
     // const month = ["March", "January", "February", "May", "April", "June", "September"];
-    // const prices = [200, 300, 350, 400, 450, 500, 600];
+    // const prices = [1, 30, 4, 21, 100000, 99];
 
-    // console.log(prices.sort());
+    console.log(prices.sort());
 
      //! 8.3 👉 Array Subsection 😎 Perform CRUD
      //? Array.prototype.push() 🙅‍♂️
      //? The push() method adds one or more elements to the end of an array and returns the new
      //? length of the array.
      
-     const animals = ["pigs", "goats", "sheep"];
+    //  const animals = ["pigs", "goats", "sheep"];
 
-     const count = animals.push("chicken");
-     console.log(animals);
-     console.log(count);
+    //  const count = animals.push("chicken");
+    //  console.log(count);
+
+    //  animals.push("chicken", "mutton", "banana", "apple");
+    //  console.log(animals);
      
-     
+     //? Array.prototype.unshift() 🙅‍♂️
+    // const animals = ["pigs", "goats", "sheep"];
+    
+    // const count = animals.unshift("chicken");
+    // console.log(count);
+    // console.log(animals);
+
+    // animals.unshift("chicken", "mutton", "banana", "apple");
+    // console.log(animals);
+
+    // const myNumbers = [1, 2, 3, 5];
+
+    // myNumbers.unshift(4,6);
+    // console.log(myNumbers);
     
     
-
