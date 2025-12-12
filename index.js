@@ -672,4 +672,12 @@
 
     // const elements = prices.find((curElem) => curElem < 400);
 
-    console.log(prices.find((curElem) => curElem < 400));
+    console.log(prices.find((curElem) => curElem > 1400));
+
+    //?! search with filteration findIndex() 
+    //? Returns the found index in the array if an element in the array satisfies the testing
+    //? function else -1 if not found.
+
+    // const prices = [200, 300, 350, 400, 450, 500, 600];
+
+    console.log(prices.findIndex((curElem) => curElem > 1400));
