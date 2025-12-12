@@ -702,7 +702,7 @@
     // const month = ["March", "January", "February", "May", "April", "June", "September"];
     // const prices = [1, 30, 4, 21, 100000, 99];
 
-    console.log(prices.sort());
+    // console.log(prices.sort());
 
      //! 8.3 👉 Array Subsection 😎 Perform CRUD
      //? Array.prototype.push() 🙅‍♂️
@@ -731,5 +731,18 @@
 
     // myNumbers.unshift(4,6);
     // console.log(myNumbers);
+
+    //? Array.prototype.pop() 🙅‍♂️
+    //? The pop() method removes the last element from an array and returns that element. This method
+    //? changes the length of the array.
+
+    const plants = ["broccauli", "cauliflower", "kale", "tomato", "cabbage"];
+
+    console.log(plants);
+    console.log(plants.pop());
+    console.log(plants);
+    
+    
+
     
     
