@@ -761,14 +761,30 @@
     //? 3. update march to March (updata)?
     //? 4. Delete June from an array?
 
-    const months = ["Jan", "march", "April", "June", "July"];
 
     //? soln1:
-    const newMonth = months.splice(months.length, 0, "Dec");
+    // const newMonth = months.splice(months.length, 0, "Dec");
     // console.log(months);
 
     //? soln2:
-    console.log(newMonth);
+    // const months = ["Jan", "march", "April", "June", "July"];
+    // console.log(newMonth);
+
+    //? soln3: 
+    const months = ["Jan", "march", "April", "June", "July"];
+
+    const indexOfMonth = months.indexOf("June");
+
+    if(indexOfMonth != -1) {
+    const updateMonth = months.splice(indexOfMonth,1,"june");
+    console.log(months);
+    
+    } else {
+        console.log("No such data found");
+    }
+
+
+
     
     
 
