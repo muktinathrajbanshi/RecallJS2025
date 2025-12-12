@@ -746,11 +746,20 @@
     //? The shift() method removes the first element from an array and returns that removed
     //? element. This method changes the length of the array.
 
-    const plants = ["broccauli", "cauliflower", "kale", "tomato", "cabbage"];
+    // const plants = ["broccauli", "cauliflower", "kale", "tomato", "cabbage"];
 
-    console.log(plants);
-    console.log(plants.shift());
-    console.log(plants);
+    // console.log(plants);
+    // console.log(plants.shift());
+    // console.log(plants);
+    
+    //🗣️🪸 Challenges time ❤️❤️💖
+    //? Array.prototype.splice() 🙅‍♂️
+    //? Adds and/or removes elements from an array.
+
+    //? 1. Add Dec at the end of an array?
+    //? 2. What is the return value of splice method?
+    //? 3. update march to March (updata)?
+    //? 4. Delete June from an array?
     
     
     
