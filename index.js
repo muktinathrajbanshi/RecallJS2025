@@ -687,10 +687,22 @@
     //? Returns a new array containing all elements of the calling array for which the providing 
     //? filtering function return true.
 
-    const prices = [200, 300, 350, 400, 450, 500, 600];
+    // const prices = [200, 300, 350, 400, 450, 500, 600];
 
-    const newPriceTag = prices.filter((curElem, index) => {
-        return curElem < 400;
-    });
-    console.log(newPriceTag);
+    // const newPriceTag = prices.filter((curElem, index) => {
+    //     return curElem < 400;
+    // });
+    // console.log(newPriceTag);
     
+    //! 8.2 👉 How to sort and compare an array sort()
+    //? array.sort(): Sorts the elements of an array in place and returns the sorted array. The
+    //? default sort order is ascending build converting the elements into strings then comparing
+    //? their sequence of UTF 16 code units value.
+
+    const month = ["March", "January", "February", "May", "April", "June", "September"];
+    // const prices = [200, 300, 350, 400, 450, 500, 600];
+
+    console.log(prices.sort());
+    
+    
+
