@@ -650,9 +650,9 @@
      //? Returns the first (least) index of an element within the array equal
      //? to an element, or -1 if none is found. It search the element from the 0th index number
 
-    // var myFriends = ["muktinath", "ramesh", "arjun", "krishna", "arjun"];
+    // var myFriends = ["muktinath", "ramesh", "krishna", "arjun", "arjun"];
 
-    // console.log(myFriends.indexOf("Arjun", 3));
+    // console.log(myFriends.indexOf("krishna"));
 
      //? Array.prototype.lastIndexOf() 👨‍🎓👨‍🎓👨‍🎓
     // var myFriends = ["muktinath", "ramesh", "arjun", "krishna", "arjun"];
@@ -699,10 +699,23 @@
     //? default sort order is ascending build converting the elements into strings then comparing
     //? their sequence of UTF 16 code units value.
 
-    const month = ["March", "January", "February", "May", "April", "June", "September"];
+    // const month = ["March", "January", "February", "May", "April", "June", "September"];
     // const prices = [200, 300, 350, 400, 450, 500, 600];
 
-    console.log(prices.sort());
+    // console.log(prices.sort());
+
+     //! 8.3 👉 Array Subsection 😎 Perform CRUD
+     //? Array.prototype.push() 🙅‍♂️
+     //? The push() method adds one or more elements to the end of an array and returns the new
+     //? length of the array.
+     
+     const animals = ["pigs", "goats", "sheep"];
+
+     const count = animals.push("chicken");
+     console.log(animals);
+     console.log(count);
+     
+     
     
     
 
