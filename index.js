@@ -736,11 +736,22 @@
     //? The pop() method removes the last element from an array and returns that element. This method
     //? changes the length of the array.
 
+    // const plants = ["broccauli", "cauliflower", "kale", "tomato", "cabbage"];
+
+    // console.log(plants);
+    // console.log(plants.pop());
+    // console.log(plants);
+
+    //? Array.prototype.shift() 🙅‍♂️
+    //? The shift() method removes the first element from an array and returns that removed
+    //? element. This method changes the length of the array.
+
     const plants = ["broccauli", "cauliflower", "kale", "tomato", "cabbage"];
 
     console.log(plants);
-    console.log(plants.pop());
+    console.log(plants.shift());
     console.log(plants);
+    
     
     
 
