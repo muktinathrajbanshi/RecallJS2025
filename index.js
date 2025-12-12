@@ -668,11 +668,11 @@
     //? Returns the found element in the array if some element in the array satisfies the testing 
     //? function or undefined.
 
-    const prices = [200, 300, 350, 400, 450, 500, 600];
+    // const prices = [200, 300, 350, 400, 450, 500, 600];
 
     // const elements = prices.find((curElem) => curElem < 400);
 
-    console.log(prices.find((curElem) => curElem > 1400));
+    // console.log(prices.find((curElem) => curElem < 400));
 
     //?! search with filteration findIndex() 
     //? Returns the found index in the array if an element in the array satisfies the testing
@@ -680,4 +680,17 @@
 
     // const prices = [200, 300, 350, 400, 450, 500, 600];
 
-    console.log(prices.findIndex((curElem) => curElem > 1400));
+    // console.log(prices.findIndex((curElem) => curElem < 400));
+
+
+    //?! search with filteration filter() 
+    //? Returns a new array containing all elements of the calling array for which the providing 
+    //? filtering function return true.
+
+    const prices = [200, 300, 350, 400, 450, 500, 600];
+
+    const newPriceTag = prices.filter((curElem, index) => {
+        return curElem < 400;
+    });
+    console.log(newPriceTag);
+    
