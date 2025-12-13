@@ -807,16 +807,29 @@
 
       //? Returns a new array containing the results of calling a function on every element in this
       //? array.
+      //? It returns new array without mutating the original array
 
     const array1 = [1, 4, 9, 16, 25];
     // num > 9
+    // let newArr = array1.map((curElem, index, arr) => {
+    //     return curElem > 9;
+    // })
+
+    // console.log(array1);
+    // console.log(newArr);
     
-    let newArr = array1.map((curElem, index, arr) => {
-        return curElem > 9;
+    let newArr = array1.map((curElem, index, array) => {
+        return `Index no = ${index} and the value is ${curElem} belong to ${array}`
     })
 
-    console.log(array1);
+    let newArrfor = array1.forEach((curElem, index, array) => {
+        return `Index no = ${index} and the value is ${curElem} belong to ${array}`
+    })
+    
     console.log(newArr);
+    
+    console.log(newArrfor);
+    
     
     
 
