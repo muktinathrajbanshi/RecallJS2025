@@ -885,11 +885,20 @@
      //? A JavaScript string is zero or more characters written inside quotes.
      //? JavaScript strings are used for storing and manipulating text.
      //? You can use single or double quotes
+
      //? Strings can be created as primitives,
      //? from string literals, or as objects, using the String() constructor
-     
-    
 
+    let myName = "muktinath rajbanshi";
+    let myChannelName = 'muktinathrajbanshi2';
+
+    // let ytName = new String("Muktinath Tech");
+    let ytName = "muktinath tech";
+
+    console.log(myName);
+    console.log((ytName));
+    
+    
 
 
 
