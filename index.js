@@ -784,20 +784,31 @@
     // }
 
     //? soln4:
-     const months = ["Jan", "march", "April", "June", "July"];
+    //  const months = ["Jan", "march", "April", "June", "July"];
 
-    const indexOfMonth = months.indexOf("April");
+    // const indexOfMonth = months.indexOf("April");
 
-    if(indexOfMonth != -1) {
-    const updateMonth = months.splice(indexOfMonth,Infinity);
-    console.log(months);
-    console.log(updateMonth);
+    // if(indexOfMonth != -1) {
+    // const updateMonth = months.splice(indexOfMonth,Infinity);
+    // console.log(months);
+    // console.log(updateMonth);
     
     
-    } else {
-        console.log("No such data found");
-    }
+    // } else {
+    //     console.log("No such data found");
+    // }
 
+      //! 8.4 👉 Map and Reduce Method
+      //? Array.prototype.map() 🕵️‍♂️
+
+      //? let newArray = arr.map(callback(currentValue[, index[, array]]){
+      //? return element for newArray, after executing something
+      //? }[, thisArg]);
+
+      //? Returns a new array containing the results of calling a function on every element in this
+      //? array.
+
+      
 
 
 
