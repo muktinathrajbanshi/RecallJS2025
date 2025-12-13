@@ -809,7 +809,7 @@
       //? array.
       //? It returns new array without mutating the original array
 
-    const array1 = [1, 4, 9, 16, 25];
+    // const array1 = [1, 4, 9, 16, 25];
     // num > 9
     // let newArr = array1.map((curElem, index, arr) => {
     //     return curElem > 9;
@@ -818,19 +818,37 @@
     // console.log(array1);
     // console.log(newArr);
     
-    let newArr = array1.map((curElem, index, array) => {
-        return `Index no = ${index} and the value is ${curElem} belong to ${array}`
-    })
+    // let newArr = array1.map((curElem, index, array) => {
+    //     return `Index no = ${index} and the value is ${curElem} belong to ${array}`
+    // })
 
-    let newArrfor = array1.forEach((curElem, index, array) => {
-        return `Index no = ${index} and the value is ${curElem} belong to ${array}`
-    })
+    // let newArrfor = array1.forEach((curElem, index, array) => {
+    //     return `Index no = ${index} and the value is ${curElem} belong to ${array}`
+    // })
     
-    console.log(newArr);
+    // console.log(newArr);
+    // console.log(newArrfor);
     
-    console.log(newArrfor);
+    //🗣️🪸 Challenges time ❤️❤️💖
+    //? 1. Find the square root of each element in an array?
+    //? 2. Multiply each element by 2 and return only those elements which are greater than 10.
+
+    //? soln1:
+    // let arr = [25, 36, 49, 64, 81];
+
+    // let arrSqr = arr.map((curElem) => Math.sqrt(curElem))
+    // console.log(arrSqr);
+
+    //? soln2:
+    let arr = [2, 3, 4, 6, 8];
+
+    let arr2 = arr.map((curElem) => curElem * 2).filter((curElem) => curElem > 10);
+    console.log(arr2);
     
+
+   
     
+
     
 
 
