@@ -869,18 +869,27 @@
     //? How to fatten an array
     //? converting 2d and 3d array into one dimensional array
 
-    const arr = [
-        ["zone_1", "zone_2"],
-        ["zone_3", "zone_4"],
-        ["zone_5", "zone_6"],
-        ["zone_7", "zone_8", ["zone_9", "zone_10"]]
-    ];
+    // const arr = [
+    //     ["zone_1", "zone_2"],
+    //     ["zone_3", "zone_4"],
+    //     ["zone_5", "zone_6"],
+    //     ["zone_7", "zone_8", ["zone_9", "zone_10"]]
+    // ];
 
-    let flatArr = arr.reduce((accum, curElem) => {
-        return accum.concat(curElem);
-    })
-    console.log(flatArr);
+    // let flatArr = arr.reduce((accum, curElem) => {
+    //     return accum.concat(curElem);
+    // })
+    // console.log(flatArr);
+
+     //! 9. 👉 Strings in JavaScript
+     //? A JavaScript string is zero or more characters written inside quotes.
+     //? JavaScript strings are used for storing and manipulating text.
+     //? You can use single or double quotes
+     //? Strings can be created as primitives,
+     //? from string literals, or as objects, using the String() constructor
+     
     
+
 
 
 
