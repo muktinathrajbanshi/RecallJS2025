@@ -771,17 +771,33 @@
     // console.log(newMonth);
 
     //? soln3: 
-    const months = ["Jan", "march", "April", "June", "July"];
+    // const months = ["Jan", "march", "April", "June", "July"];
 
-    const indexOfMonth = months.indexOf("June");
+    // const indexOfMonth = months.indexOf("June");
+
+    // if(indexOfMonth != -1) {
+    // const updateMonth = months.splice(indexOfMonth,1,"june");
+    // console.log(months);
+    
+    // } else {
+    //     console.log("No such data found");
+    // }
+
+    //? soln4:
+     const months = ["Jan", "march", "April", "June", "July"];
+
+    const indexOfMonth = months.indexOf("April");
 
     if(indexOfMonth != -1) {
-    const updateMonth = months.splice(indexOfMonth,1,"june");
+    const updateMonth = months.splice(indexOfMonth,Infinity);
     console.log(months);
+    console.log(updateMonth);
+    
     
     } else {
         console.log("No such data found");
     }
+
 
 
 
