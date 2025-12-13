@@ -858,13 +858,28 @@
     //? Current Index
     //? Source Array
 
-    let arr = [5, 6, 2];
+    // let arr = [5, 6, 2];
 
-    let sum = arr.reduce((accumulator, curElem) => {
-        debugger;
-        return accumulator += curElem;
-    },7)
-    console.log(sum);
+    // let sum = arr.reduce((accumulator, curElem) => {
+    //     debugger;
+    //     return accumulator += curElem;
+    // },7)
+    // console.log(sum);
+
+    //? How to fatten an array
+    //? converting 2d and 3d array into one dimensional array
+
+    const arr = [
+        ["zone_1", "zone_2"],
+        ["zone_3", "zone_4"],
+        ["zone_5", "zone_6"],
+        ["zone_7", "zone_8", ["zone_9", "zone_10"]]
+    ];
+
+    let flatArr = arr.reduce((accum, curElem) => {
+        return accum.concat(curElem);
+    })
+    console.log(flatArr);
     
 
 
