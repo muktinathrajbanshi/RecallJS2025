@@ -842,7 +842,7 @@
     //? soln2:
     // let arr = [2, 3, 4, 6, 8];
 
-    // let arr2 = arr.map((curElem) => curElem * 2).filter((curElem) => curElem > 10);
+    // let arr2 = arr.map((curElem) => curElem * 2).filter((curElem) => curElem > 10).reduce((accumulator, curElem) => accumulator += curElem);
     // console.log(arr2);
     
      //! 8.4 👉 Reduce Method
@@ -857,7 +857,20 @@
     //? Current Value
     //? Current Index
     //? Source Array
+
+    let arr = [5, 6, 2];
+
+    let sum = arr.reduce((accumulator, curElem) => {
+        debugger;
+        return accumulator += curElem;
+    },7)
+    console.log(sum);
     
+
+
+
+
+
     
 
     
