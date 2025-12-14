@@ -941,15 +941,30 @@
      //? The search() method searches a string for a specified value and returns the position of
      //? the match
 
-    const myBioData = "I am muktinath rajbanshi";
+    // const myBioData = "I am muktinath rajbanshi";
 
-    let sData = myBioData.search("muktinath");
-    console.log(sData);
-    
-    
-
+    // let sData = myBioData.search("muktinath");
+    // console.log(sData);
 
      //? The search() method cannot take a second start position argument.
+
+
+    //?! 👉 Extracting String Parts
+
+    //? There are 3 methods for extracting a part of a string:
+    
+    //? slice(start, end)
+    //? substring(start, end)
+    //? substr(start, length)
+
+    //? The slice() Method 🙅‍♂️
+    //? slice() extracts a part of a string and returns the extracted part in a new string.
+
+    //? The method takes 2 parameters: the start position,
+    //? and the end position (end not included).
+
+    
+
 
 
 
