@@ -902,9 +902,21 @@
     //? String.prototype.length 🧜‍♂️
     //? Reflects the length of the string.
 
-    let myName = "mukti raj";
-    console.log(myName.length);
+    // let myName = "mukti raj";
+    // console.log(myName.length);
+
+    //? 👉 Escape Character
+
+    //  let anySentence = "We are the so-called \"Vikings\" from the north.";
+    // console.log(anySentence);
+
+    //? if you don't want to mess, simply use the alternate quotes
+
+    //  let anySentence = 'We are the so-called "Vikings" from the north.';
+    // console.log(anySentence);
     
+    let anySentence = "We are the so-called 'Vikings' from the north.";
+    console.log(anySentence);
     
     
 
