@@ -927,7 +927,12 @@
     // const myBioData = 'I am mukti rajm';
     // console.log(myBioData.indexOf("m",7));
     
-    
+   //? String.prototype.lastIndexOf(searchValue [, fromIndex]) 🙅‍♂️  
+   //? Returns the index within the calling String object of the last occurrence of searchValue, or
+   //? -1 if not found.
+   
+    const myBioData = 'I am muktinath rajbanshi';
+    console.log(myBioData.lastIndexOf("a",15));
 
 
 
