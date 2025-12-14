@@ -905,7 +905,7 @@
     // let myName = "mukti raj";
     // console.log(myName.length);
 
-    //? 👉 Escape Character
+    //?! 👉 Escape Character
 
     //  let anySentence = "We are the so-called \"Vikings\" from the north.";
     // console.log(anySentence);
@@ -918,7 +918,7 @@
     // let anySentence = "We are the so-called 'Vikings' from the north.";
     // console.log(anySentence);
     
-    //? 👉 Finding a String in a String
+    //?! 👉 Finding a String in a String
     //? String.prototype.indexOf(searchValue [, fromIndex]) 🙅‍♂️
     
     //? The indexOf() method returns the index of (the position of) the first occurrence of a
@@ -927,12 +927,30 @@
     // const myBioData = 'I am mukti rajm';
     // console.log(myBioData.indexOf("m",7));
     
-   //? String.prototype.lastIndexOf(searchValue [, fromIndex]) 🙅‍♂️  
+   //?! String.prototype.lastIndexOf(searchValue [, fromIndex]) 🙅‍♂️  
    //? Returns the index within the calling String object of the last occurrence of searchValue, or
    //? -1 if not found.
    
-    const myBioData = 'I am muktinath rajbanshi';
-    console.log(myBioData.lastIndexOf("a",15));
+    // const myBioData = 'I am muktinath rajbanshi';
+    // console.log(myBioData.lastIndexOf("a",15));
+
+     //?! 👉 Searching for a String in a String
+
+     //? String.prototype.search(regexp) 🙅‍♂️
+
+     //? The search() method searches a string for a specified value and returns the position of
+     //? the match
+
+    const myBioData = "I am muktinath rajbanshi";
+
+    let sData = myBioData.search("muktinath");
+    console.log(sData);
+    
+    
+
+
+     //? The search() method cannot take a second start position argument.
+
 
 
 
