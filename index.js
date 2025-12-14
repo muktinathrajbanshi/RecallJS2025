@@ -957,7 +957,7 @@
     //? substring(start, end)
     //? substr(start, length)
 
-    //? The slice() Method 🙅‍♂️
+    //?! The slice() Method 🙅‍♂️
     //? slice() extracts a part of a string and returns the extracted part in a new string.
 
     //? The method takes 2 parameters: the start position,
@@ -978,13 +978,25 @@
     //? by default it takes all the length after
     
    //🗣️🪸 Challenges time ❤️❤️💖
-   //? Q. Display only 280 characters of a string like the one used in Twitter ?
+   //? Q1. Display only 280 characters of a string like the one used in Twitter ?
 
-   let myTweets = "Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms."
+  //  let myTweets = "Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms."
 
-   let myActualTweet = myTweets.slice(0, 280);
-  console.log(myActualTweet);
-  console.log(myActualTweet.length);
+  //  let myActualTweet = myTweets.slice(0, 280);
+  // console.log(myActualTweet);
+  // console.log(myActualTweet.length);
+
+  //?! The substring() Method 🙅‍♂️
+//? substring() is simpler to slice().
+//? The difference is that substring() cannot accept negative indexes.
+
+var str = "Apple, Banana, Kiwi";
+let res = str.substring(8, -2);
+console.log(res);
+
+
+//? If we give negative value then the characters are counted from the oth pos
+
   
   
 
