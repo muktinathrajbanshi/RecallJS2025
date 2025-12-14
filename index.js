@@ -963,6 +963,19 @@
     //? The method takes 2 parameters: the start position,
     //? and the end position (end not included).
 
+    var str = "Apple, Banana, Kiwi, mango";
+
+    // let res = str.slice(0,4);
+    let res = str.slice(7);
+    console.log(res);
+
+    //? The slice() method selects the elements starting at the given start argument, and ends at,
+    //? but does not include, the given end argument.
+
+    //? Note: The original array will not be changed.
+
+    //? Remember: JavaScript counts positions from zero. First position is 0 and last we have to choose
+    //? by default it takes all the length after
     
 
 
