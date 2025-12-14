@@ -915,8 +915,17 @@
     //  let anySentence = 'We are the so-called "Vikings" from the north.';
     // console.log(anySentence);
     
-    let anySentence = "We are the so-called 'Vikings' from the north.";
-    console.log(anySentence);
+    // let anySentence = "We are the so-called 'Vikings' from the north.";
+    // console.log(anySentence);
+    
+    //? 👉 Finding a String in a String
+    //? String.prototype.indexOf(searchValue [, fromIndex]) 🙅‍♂️
+    
+    //? The indexOf() method returns the index of (the position of) the first occurrence of a
+    //? specified text in a string
+
+    // const myBioData = 'I am mukti rajm';
+    // console.log(myBioData.indexOf("m",7));
     
     
 
