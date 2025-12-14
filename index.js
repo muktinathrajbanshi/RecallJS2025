@@ -990,14 +990,22 @@
 //? substring() is simpler to slice().
 //? The difference is that substring() cannot accept negative indexes.
 
-var str = "Apple, Banana, Kiwi";
-let res = str.substring(8, -2);
-console.log(res);
+// var str = "Apple, Banana, Kiwi";
+// let res = str.substring(8, -2);
+// console.log(res);
 
 
 //? If we give negative value then the characters are counted from the oth pos
 
-  
+//?! The substr() Method 🙅‍♂️
+//? substr() is similar to slice()
+
+//? The difference is that the second parameter specifies the length of the extracted part.
+
+var str = "Apple, Banana, Kiwi";
+// let res = str.substr(7,-2);
+let res = str.substr(-4);
+console.log(res);
   
 
 
