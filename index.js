@@ -889,14 +889,22 @@
      //? Strings can be created as primitives,
      //? from string literals, or as objects, using the String() constructor
 
-    let myName = "muktinath rajbanshi";
-    let myChannelName = 'muktinathrajbanshi2';
+    // let myName = "muktinath rajbanshi";
+    // let myChannelName = 'muktinathrajbanshi2';
 
-    // let ytName = new String("Muktinath Tech");
-    let ytName = "muktinath tech";
+    // // let ytName = new String("Muktinath Tech");
+    // let ytName = "muktinath tech";
 
-    console.log(myName);
-    console.log((ytName));
+    // console.log(myName);
+    // console.log((ytName));
+
+    //? 🙅‍♂️ How to find the length of a string 
+    //? String.prototype.length 🧜‍♂️
+    //? Reflects the length of the string.
+
+    let myName = "mukti raj";
+    console.log(myName.length);
+    
     
     
 
