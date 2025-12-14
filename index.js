@@ -963,11 +963,11 @@
     //? The method takes 2 parameters: the start position,
     //? and the end position (end not included).
 
-    var str = "Apple, Banana, Kiwi, mango";
+    // var str = "Apple, Banana, Kiwi, mango";
 
-    // let res = str.slice(0,4);
-    let res = str.slice(7);
-    console.log(res);
+    // // let res = str.slice(0,4);
+    // let res = str.slice(7);
+    // console.log(res);
 
     //? The slice() method selects the elements starting at the given start argument, and ends at,
     //? but does not include, the given end argument.
@@ -977,8 +977,16 @@
     //? Remember: JavaScript counts positions from zero. First position is 0 and last we have to choose
     //? by default it takes all the length after
     
+   //🗣️🪸 Challenges time ❤️❤️💖
+   //? Q. Display only 280 characters of a string like the one used in Twitter ?
 
+   let myTweets = "Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms."
 
+   let myActualTweet = myTweets.slice(0, 280);
+  console.log(myActualTweet);
+  console.log(myActualTweet.length);
+  
+  
 
 
 
