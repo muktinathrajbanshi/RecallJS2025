@@ -1096,13 +1096,25 @@
     //?! splite() Method Converting a String to an Array
     //? A string can be converted to an array with the split() method
 
-    var txt = "a, b, c, | d, e"; //String
-    console.log(txt.split(","));  // Split on commas
-    console.log(txt.split(" "));  // Split on spaces
-    console.log(txt.split("|"));  // Split on pipe
+    // var txt = "a, b, c, | d, e"; //String
+    // console.log(txt.split(","));  // Split on commas
+    // console.log(txt.split(" "));  // Split on spaces
+    // console.log(txt.split("|"));  // Split on pipe
     
+    //! 8. 👉 Date and Time in JavaScript
     
-    
+    //? JavaScript Date objects represent a single moment in time in a platform-independent format.
+    //? Date objects contain a Number that represents milliseconds since 1st January 1970 UTC.
+
+    //? 👉 Creating Date Objects
+    //? There are 4 ways to create a new date object:
+
+    // new Data()
+    // new Date(year, month, day, hours, minutes, seconds, milliseconds)
+    // //? It takes 7 arguments
+    // new Date(milliseconds)
+    // //? we cannot avoid month section
+    // new Date(date string)
     
     
     
