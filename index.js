@@ -1013,11 +1013,11 @@
 
 //? The replace() method replaces a specified value with another value in a string.
 
-let myBioData = `I am muktinath rajbanshi muktinath`;
+// let myBioData = `I am muktinath rajbanshi muktinath`;
 
-let replaceData = myBioData.replace("Muktinath", "Muktinath");
-console.log(replaceData);
-console.log(myBioData);
+// let replaceData = myBioData.replace("Muktinath", "Muktinath");
+// console.log(replaceData);
+// console.log(myBioData);
 
 
 
@@ -1026,6 +1026,21 @@ console.log(myBioData);
 //? 2. By default, the replace() method replaces only the first match
 //? 3. By default, the replace() method is case sensitive.
 //? Writing VINOD (with upper-case) will not work
+
+//?! 👉 Extracting String Characters
+
+//? There are 3 methods for extracting string characters:
+
+//? charAt(position)
+//? charCodeAt(position)
+//? Property access []
+
+//? The charAt() Method 🙅‍♂️
+//? The charAt() method returns the character at a specified index (position) in a string
+
+let str = "HELLO WORLD";
+
+console.log(str.charAt(0));
 
 
 
