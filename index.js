@@ -1090,8 +1090,19 @@
     //?! String.trim() 🙅‍♂️
     //? The trim() method removes whitespace from both sides of a string
 
-    var str = "             Hello World!                            ";
-    console.log(str.trim());
+    // var str = "             Hello World!                            ";
+    // console.log(str.trim());
+
+    //?! splite() Method Converting a String to an Array
+    //? A string can be converted to an array with the split() method
+
+    var txt = "a, b, c, | d, e"; //String
+    console.log(txt.split(","));  // Split on commas
+    console.log(txt.split(" "));  // Split on spaces
+    console.log(txt.split("|"));  // Split on pipe
+    
+    
+    
     
     
     
