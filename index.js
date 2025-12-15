@@ -1078,14 +1078,21 @@
     //? The concat() Method 🙅‍♂️
     //? concat() method joins two or more strings
 
-    let fName = "muktinath";
-    let lName = "rajbanshi";
+    // let fName = "muktinath";
+    // let lName = "rajbanshi";
 
-    console.log(fName  + lName);
-    console.log(`${fName} ${lName}`);
+    // console.log(fName  + lName);
+    // console.log(`${fName} ${lName}`);
     
-    console.log(fName.concat(lName));
-    console.log(fName.concat(" ", lName));
+    // console.log(fName.concat(lName));
+    // console.log(fName.concat(" ", lName));
+
+    //?! String.trim() 🙅‍♂️
+    //? The trim() method removes whitespace from both sides of a string
+
+    var str = "             Hello World!                            ";
+    console.log(str.trim());
+    
     
     
     
