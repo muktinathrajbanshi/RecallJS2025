@@ -1038,9 +1038,16 @@
 //? The charAt() Method 🙅‍♂️
 //? The charAt() method returns the character at a specified index (position) in a string
 
-let str = "HELLO WORLD";
+// let str = "HELLO WORLD";
 
-console.log(str.charAt(0));
+// console.log(str.charAt(0));
+
+//? The charCodeAt() Method 🙅‍♂️
+//? The charCodeAt() method returns the unicode of the character at a specified index in a string:
+//? The method returns a UTF-16 code (an integer between 0 and 65535).
+
+var str = "HELLO WORLD";
+console.log(str.charCodeAt(0));
 
 
 
