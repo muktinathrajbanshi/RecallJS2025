@@ -1071,9 +1071,23 @@
 
     //!👉 Other useful methods
 
-    let myName = "muktinath rajbanShi";
-    console.log(myName.toUpperCase());
-    console.log(myName.toLowerCase());
+    // let myName = "muktinath rajbanShi";
+    // console.log(myName.toUpperCase());
+    // console.log(myName.toLowerCase());
+
+    //? The concat() Method 🙅‍♂️
+    //? concat() method joins two or more strings
+
+    let fName = "muktinath";
+    let lName = "rajbanshi";
+
+    console.log(fName  + lName);
+    console.log(`${fName} ${lName}`);
+    
+    console.log(fName.concat(lName));
+    console.log(fName.concat(" ", lName));
+    
+    
     
     
 
