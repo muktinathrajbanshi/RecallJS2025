@@ -1035,20 +1035,31 @@
 //? charCodeAt(position)
 //? Property access []
 
-//? The charAt() Method 🙅‍♂️
+//?! The charAt() Method 🙅‍♂️
 //? The charAt() method returns the character at a specified index (position) in a string
 
 // let str = "HELLO WORLD";
 
 // console.log(str.charAt(0));
 
-//? The charCodeAt() Method 🙅‍♂️
+//?! The charCodeAt() Method 🙅‍♂️
 //? The charCodeAt() method returns the unicode of the character at a specified index in a string:
 //? The method returns a UTF-16 code (an integer between 0 and 65535).
+//? The Unicode Standard provides a unique number for every character, no matter the platform, device,
+//? application, or language. UTF-8 is a popular Unicode encoding which has 88-bit code units.
 
-var str = "HELLO WORLD";
-console.log(str.charCodeAt(0));
 
+// var str = "HELLO WORLD";
+// console.log(str.charCodeAt(0));
+
+
+//!🗣️🪸 Challenges time ❤️❤️💖
+//? Return the Unicode of the last character in a string
+
+let str = "HELLO WORLD";
+
+let lastChar = str.length - 1;
+console.log(str.charCodeAt(lastChar));
 
 
     
