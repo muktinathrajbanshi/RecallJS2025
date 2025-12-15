@@ -1055,8 +1055,8 @@
 //? Property Access
 //? ECMAScript 5 (2009) allows property access [ ] on strings
 
-var str = "HELLO WORLD";
-console.log(str[1]);
+// var str = "HELLO WORLD";
+// console.log(str[1]);
 
 
 
@@ -1069,6 +1069,12 @@ console.log(str[1]);
 // console.log(str.charCodeAt(lastChar));
 
 
+    //!👉 Other useful methods
+
+    let myName = "muktinath rajbanShi";
+    console.log(myName.toUpperCase());
+    console.log(myName.toLowerCase());
+    
     
 
     
