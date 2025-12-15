@@ -1052,14 +1052,21 @@
 // var str = "HELLO WORLD";
 // console.log(str.charCodeAt(0));
 
+//? Property Access
+//? ECMAScript 5 (2009) allows property access [ ] on strings
+
+var str = "HELLO WORLD";
+console.log(str[1]);
+
+
 
 //!🗣️🪸 Challenges time ❤️❤️💖
 //? Return the Unicode of the last character in a string
 
-let str = "HELLO WORLD";
+// let str = "HELLO WORLD";
 
-let lastChar = str.length - 1;
-console.log(str.charCodeAt(lastChar));
+// let lastChar = str.length - 1;
+// console.log(str.charCodeAt(lastChar));
 
 
     
