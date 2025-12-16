@@ -1144,8 +1144,17 @@
   //? new Date(dateString) 🙅‍♂️
   //? new Date(dateString) creates a new date object from a date string
 
-  var d = new Date("September 25, 2025 11:13:00");
-  console.log(d);
+  // var d = new Date("September 25, 2025 11:13:00");
+  // console.log(d);
+
+  //? new Date(milliseconds) 🙅‍♂️
+  //? new Date(milliseconds) creates a new date object as zero time plus millisecond
+
+  // var d = new Date(0);
+  // var d = new Date(1768654890820);
+  var d = new Date(86400000*2);
+  console.log(d.toLocaleString());
+  
   
   
     
