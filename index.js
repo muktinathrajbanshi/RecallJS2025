@@ -1177,17 +1177,32 @@
   
   
   //?! 👉 Times Method
-  const curTime = new Date();
+  // const curTime = new Date();
 
   //? how to get the individual time
 
-  console.log(curTime.getTime());
-  //? The getTime() method returns the number of milliseconds since
-  console.log(curTime.getHours());
-  //? The getHours() method returns the hours of a date as a number
-  console.log(curTime.getMinutes());
-  console.log(curTime.getSeconds());
-  console.log(curTime.getMilliseconds());
+  // console.log(curTime.getTime());
+  // //? The getTime() method returns the number of milliseconds since January 1, 1970
+  // console.log(curTime.getHours());
+  // //? The getHours() method returns the hours of a date as a number
+  // console.log(curTime.getMinutes());
+  // console.log(curTime.getSeconds());
+  // console.log(curTime.getMilliseconds());
+
+
+  //?! 👉 how to set the individual time
+  
+  let curTime = new Date();
+
+  // console.log(curTime.setTime());
+  console.log(curTime.setHours(5));
+  console.log(curTime.setMinutes(5));
+  console.log(curTime.setSeconds(5));
+  console.log(curTime.setMilliseconds(5));
+  
+  
+  
+  
   
   
   
