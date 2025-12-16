@@ -1138,8 +1138,14 @@
 
   //? January is 0. December is 11.
 
-  var d = new Date(2025, 0, 5, 20, 33, 30, 0);
-  console.log(d.toLocaleString());
+  // var d = new Date(2025, 0, 5, 20, 33, 30, 0);
+  // console.log(d.toLocaleString());
+  
+  //? new Date(dateString) 🙅‍♂️
+  //? new Date(dateString) creates a new date object from a date string
+
+  var d = new Date("September 25, 2025 11:13:00");
+  console.log(d);
   
   
     
