@@ -1152,8 +1152,23 @@
 
   // var d = new Date(0);
   // var d = new Date(1768654890820);
-  var d = new Date(86400000*2);
-  console.log(d.toLocaleString());
+  // var d = new Date(86400000*2);
+  // console.log(d.toLocaleString());
+  
+  //👉 Dates Method
+
+  const curDate = new Date();
+
+  //? how to get the individual date
+  console.log(curDate.toLocaleString());
+  console.log(curDate.getFullYear());
+  console.log(curDate.getMonth());
+  console.log(curDate.getDate());
+  console.log(curDate.getDay());
+
+  
+  
+  
   
   
   
