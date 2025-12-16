@@ -1159,12 +1159,26 @@
 
   const curDate = new Date();
 
-  //? how to get the individual date
+  // //? how to get the individual date
+  // console.log(curDate.toLocaleString());
+  // console.log(curDate.getFullYear());
+  // console.log(curDate.getMonth());
+  // console.log(curDate.getDate());
+  // console.log(curDate.getDay());
+
+  //? how to set the individual date
+
+  console.log(curDate.setFullYear(2025));
+  //? The setFullYear() method can optionally set month and day
+  console.log(curDate.setFullYear(2025, 6, 1));
+  console.log(curDate.setMonth(10));
+  console.log(curDate.setDate(5));
   console.log(curDate.toLocaleString());
-  console.log(curDate.getFullYear());
-  console.log(curDate.getMonth());
-  console.log(curDate.getDate());
-  console.log(curDate.getDay());
+  
+  
+  
+  
+  
 
   
   
