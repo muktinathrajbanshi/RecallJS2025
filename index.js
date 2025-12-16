@@ -1115,6 +1115,19 @@
     // new Date(milliseconds)
     // //? we cannot avoid month section
     // new Date(date string)
+
+    //?! new Date() 🙅‍♂️
+    //? Date objects are created with the new Date() constructor.
+    
+    // let currDate = new Date();
+    // console.log(currDate);
+    
+    console.log(new Date());
+    console.log(new Date().toLocaleString());
+    console.log(new Date().toString());
+    
+    
+    
     
     
     
