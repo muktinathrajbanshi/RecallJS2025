@@ -1130,7 +1130,17 @@
   //? Returns the numeric value corresponding to the current time-the number of milliseconds
   //? elapsed since January 1, 1970 00:00:00 UTC
 
-  console.log(Date.now());
+  // console.log(Date.now());
+
+  //? new Date(year, month, ...) 🙅‍♂️
+  //? 7 numbers specify year, month, day, hour, minute, second, and millisecond (in that order)
+  //? Note: JavaScript counts months from 0 to 11.
+
+  //? January is 0. December is 11.
+
+  var d = new Date(2025, 0, 5, 20, 33, 30, 0);
+  console.log(d.toLocaleString());
+  
   
     
     
