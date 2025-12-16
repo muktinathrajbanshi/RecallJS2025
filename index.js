@@ -1157,7 +1157,7 @@
   
   //👉 Dates Method
 
-  const curDate = new Date();
+  // const curDate = new Date();
 
   // //? how to get the individual date
   // console.log(curDate.toLocaleString());
@@ -1168,12 +1168,28 @@
 
   //? how to set the individual date
 
-  console.log(curDate.setFullYear(2025));
-  //? The setFullYear() method can optionally set month and day
-  console.log(curDate.setFullYear(2025, 6, 1));
-  console.log(curDate.setMonth(10));
-  console.log(curDate.setDate(5));
-  console.log(curDate.toLocaleString());
+  // console.log(curDate.setFullYear(2025));
+  // //? The setFullYear() method can optionally set month and day
+  // console.log(curDate.setFullYear(2025, 6, 1));
+  // console.log(curDate.setMonth(10));
+  // console.log(curDate.setDate(5));
+  // console.log(curDate.toLocaleString());
+  
+  
+  //?! 👉 Times Method
+  const curTime = new Date();
+
+  //? how to get the individual time
+
+  console.log(curTime.getTime());
+  //? The getTime() method returns the number of milliseconds since
+  console.log(curTime.getHours());
+  //? The getHours() method returns the hours of a date as a number
+  console.log(curTime.getMinutes());
+  console.log(curTime.getSeconds());
+  console.log(curTime.getMilliseconds());
+  
+  
   
   
   
