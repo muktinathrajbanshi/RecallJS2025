@@ -1122,9 +1122,16 @@
     // let currDate = new Date();
     // console.log(currDate);
     
-    console.log(new Date());
-    console.log(new Date().toLocaleString());
-    console.log(new Date().toString());
+    // console.log(new Date());
+    // console.log(new Date().toLocaleString());
+    // console.log(new Date().toString());
+
+  //?! Date.now() 🙅‍♂️
+  //? Returns the numeric value corresponding to the current time-the number of milliseconds
+  //? elapsed since January 1, 1970 00:00:00 UTC
+
+  console.log(Date.now());
+  
     
     
     
