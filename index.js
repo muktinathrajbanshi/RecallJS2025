@@ -1201,11 +1201,18 @@
   // console.log(curTime.setMilliseconds(5));
   
   //!🗣️🪸 Challenges time ❤️❤️💖
-  (function(){
-    setInterval(() => {
-      console.log(new Date().toLocaleTimeString());    
-    }, 1000)
-  })
+  // (function(){
+  //   setInterval(() => {
+  //     console.log(new Date().toLocaleTimeString());    
+  //   }, 1000)
+  // })();
+
+  //! 👉 Practice Time
+  new Date().toLocaleTimeString(); //9:30:18
+  
+  new Date().toLocaleDateString(); // 12/17/2025
+
+  new Date().toLocaleString() // 12/17/2025, 9:30:18
   
   
   
