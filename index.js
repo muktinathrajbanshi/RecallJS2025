@@ -1228,8 +1228,17 @@
     // Math.pow() 🙅‍♂️
     //? Math.pow(x, y) returns the value of x to the power of y
 
-    console.log(Math.pow(2,3));
-    console.log(2**3);
+    // console.log(Math.pow(2,3));
+    // console.log(2**3);
+    
+    // Math.sqrt() 🙅‍♂️
+    //? Math.sqrt(x) returns the square root of x
+
+    console.log(Math.sqrt(25));
+    console.log(Math.sqrt(81));
+    console.log(Math.sqrt(66));
+    
+    
     
     
     
