@@ -1234,9 +1234,19 @@
     // Math.sqrt() 🙅‍♂️
     //? Math.sqrt(x) returns the square root of x
 
-    console.log(Math.sqrt(25));
-    console.log(Math.sqrt(81));
-    console.log(Math.sqrt(66));
+    // console.log(Math.sqrt(25));
+    // console.log(Math.sqrt(81));
+    // console.log(Math.sqrt(66));
+
+    // Math.abs() 🙅‍♂️
+    //? Math.abs(x) returns the absolute (positive) value of x
+
+    console.log(Math.abs(-55));
+    console.log(Math.abs(-55.5));
+    console.log(Math.abs(-955));
+    
+    
+    
     
     
     
