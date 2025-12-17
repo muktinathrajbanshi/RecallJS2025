@@ -10,14 +10,15 @@
     <p id="demo"></p>
 
     <script>
-      function myFunction() {
-        var t = new Date();
-        t.setHours(6);
-        document.getElementById("demo").innerHTML = t;
-      }
+      // function myFunction() {
+      //   var t = new Date();
+      //   t.setHours(6);
+      //   document.getElementById("demo").innerHTML = t;
+      // }
       (function () {
         setInterval(() => {
-          console.log(new Date().toLocaleTimeString());
+          var t = new Date().toLocaleTimeString();
+          document.getElementById("demo").innerHTML = t;
         }, 1000);
       })();
     </script>
