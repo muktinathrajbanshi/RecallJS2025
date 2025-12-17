@@ -1217,7 +1217,14 @@
     //! 9. 👉 Math Object in JavaScript
     //? The JavaScript Math object allows you to perform mathematical tasks on numbers.
 
-    console.log(Math.PI);
+    // console.log(Math.PI); 🙅‍♂️
+
+    // Math.round() 🙅‍♂️
+    // ? returns the value of x rounded to its nearest integer
+
+    let num = 10.9565;
+    console.log(Math.round(num));
+    
     
   
   
