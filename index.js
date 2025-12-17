@@ -1208,11 +1208,17 @@
   // })();
 
   //! 👉 Practice Time
-  new Date().toLocaleTimeString(); //9:30:18
+  // new Date().toLocaleTimeString(); //9:30:18
   
-  new Date().toLocaleDateString(); // 12/17/2025
+  // new Date().toLocaleDateString(); // 12/17/2025
 
-  new Date().toLocaleString() // 12/17/2025, 9:30:18
+  // new Date().toLocaleString() // 12/17/2025, 9:30:18
+
+    //! 9. 👉 Math Object in JavaScript
+    //? The JavaScript Math object allows you to perform mathematical tasks on numbers.
+
+    console.log(Math.PI);
+    
   
   
   
