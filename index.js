@@ -1222,8 +1222,16 @@
     // Math.round() 🙅‍♂️
     // ? returns the value of x rounded to its nearest integer
 
-    let num = 10.9565;
-    console.log(Math.round(num));
+    // let num = 10.9565;
+    // console.log(Math.round(num));
+
+    // Math.pow() 🙅‍♂️
+    //? Math.pow(x, y) returns the value of x to the power of y
+
+    console.log(Math.pow(2,3));
+    console.log(2**3);
+    
+    
     
     
   
