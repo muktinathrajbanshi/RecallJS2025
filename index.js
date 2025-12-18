@@ -1269,7 +1269,15 @@
     // Math.max() 🙅‍♂️
     //? Math.max() can be used to find the highest value in a list of argument.
 
-    console.log(Math.max(0, 150, 30, 20, -8, -200));
+    // console.log(Math.max(0, 150, 30, 20, -8, -200));
+
+    // Math.random() 🙅‍♂️
+    //? Math.random() returns a random number between 0 (inclusive), and 1
+
+    // console.log(Math.random()*10);
+    
+    console.log(Math.floor(Math.random()*10));
+    
     
     
     
