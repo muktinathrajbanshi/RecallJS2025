@@ -1276,7 +1276,15 @@
 
     // console.log(Math.random()*10);
     
-    console.log(Math.floor(Math.random()*10));
+    // console.log(Math.floor(Math.random()*10)); // 0 to 9 
+
+    // Math.trunc() 🙅‍♂️
+    //? The trunc() method returns the integer part of a number
+
+    console.log(Math.trunc(4.6));
+    console.log(Math.trunc(-99.1));
+    
+    
     
     
     
