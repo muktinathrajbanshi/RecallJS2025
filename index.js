@@ -1250,10 +1250,18 @@
     // Math.ceil() 🙅‍♂️
     //? Math.ceil(x) returns the value of x rounded up to its nearest integer
 
-    console.log(Math.ceil(4.51));
-    console.log(Math.round(4.51));
-    console.log(Math.ceil(99.1));
-    console.log(Math.round(99.1));
+    // console.log(Math.ceil(4.51));
+    // console.log(Math.round(4.51));
+    // console.log(Math.ceil(99.1));
+    // console.log(Math.round(99.1));
+
+    // Math.floor() 🙅‍♂️
+    //? Math.floor(x) returns the value of x rounded down to its nearest integer
+
+    console.log(Math.floor(4.7));
+    console.log(Math.floor(99.1));
+    
+    
     
     
     
