@@ -1258,8 +1258,14 @@
     // Math.floor() 🙅‍♂️
     //? Math.floor(x) returns the value of x rounded down to its nearest integer
 
-    console.log(Math.floor(4.7));
-    console.log(Math.floor(99.1));
+    // console.log(Math.floor(4.7));
+    // console.log(Math.floor(99.1));
+
+    // Math.min() 🙅‍♂️
+    //? Math.min() can be used to find the lowest value in a list of argument.
+
+    console.log(Math.min(0, 150, 30, 20, -8, -200));
+    
     
     
     
