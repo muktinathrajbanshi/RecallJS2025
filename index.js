@@ -1295,7 +1295,14 @@
     //? 1. Window is the main container or we can say the global Object
     //? and any operations related to entire browser window can be a part of window object.
 
-    
+    //? For ex 👉 the history or to find the url etc.
+
+    //? 2. whereas the DOM is the child of Window Object.
+
+    //? 2. All the members like objects, methods or properties.
+    //? If they are the part of window object then we do not refer the window
+    //? object. Since window is the global object so you do not have to write down window.
+    //? it will be figured out by the runtime.
     
     
     
