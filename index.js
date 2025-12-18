@@ -1304,6 +1304,17 @@
     //? object. Since window is the global object so you do not have to write down window.
     //? it will be figured out by the runtime.
     
+    //? For example
+    //? 👉 window.screen or just screen is a small information object about physical screen dimensions.
+    //? 👉 window.location giving the current URL
+    //? 👉 window.document or just document is the main object
+    //? of the potentially visible (or better yet: rendered) 
+    //? document object model/DOM.
+
+    //? Where in the DOM we need to refer the document,
+    //? if we want to use the document object, methods or properties
+    //? For example
+    // ? 👉 document.getElementById()
     
     
     
