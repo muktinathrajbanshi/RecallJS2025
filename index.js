@@ -1281,8 +1281,12 @@
     // Math.trunc() 🙅‍♂️
     //? The trunc() method returns the integer part of a number
 
-    console.log(Math.trunc(4.6));
-    console.log(Math.trunc(-99.1));
+    // console.log(Math.trunc(4.6));
+    // console.log(Math.trunc(-99.1));
+
+    //?! Practice Time
+    //? if the argument is a positive number, Math.trunc() is equivalent to
+    //? Math.floor(), otherwise Math.trunc() is equivalent to Math.ceil().
     
     
     
