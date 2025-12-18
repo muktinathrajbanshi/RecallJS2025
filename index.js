@@ -1264,7 +1264,12 @@
     // Math.min() 🙅‍♂️
     //? Math.min() can be used to find the lowest value in a list of argument.
 
-    console.log(Math.min(0, 150, 30, 20, -8, -200));
+    // console.log(Math.min(0, 150, 30, 20, -8, -200));
+
+    // Math.max() 🙅‍♂️
+    //? Math.max() can be used to find the highest value in a list of argument.
+
+    console.log(Math.max(0, 150, 30, 20, -8, -200));
     
     
     
