@@ -1283,11 +1283,18 @@
 
     // console.log(Math.trunc(4.6));
     // console.log(Math.trunc(-99.1));
+    // console.log(Math.ceil(-99.1));
+    
 
     //?! Practice Time
     //? if the argument is a positive number, Math.trunc() is equivalent to
     //? Math.floor(), otherwise Math.trunc() is equivalent to Math.ceil().
     
+    //! 10. 👉 Document Object Model in JavaScript
+
+    //? 1. Window is the main container or we can say the global Object
+    //? and any operations related to entire browser window can be a part of window object.
+
     
     
     
