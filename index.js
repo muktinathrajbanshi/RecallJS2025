@@ -1241,9 +1241,22 @@
     // Math.abs() 🙅‍♂️
     //? Math.abs(x) returns the absolute (positive) value of x
 
-    console.log(Math.abs(-55));
-    console.log(Math.abs(-55.5));
-    console.log(Math.abs(-955));
+    // console.log(Math.abs(-55));
+    // console.log(Math.abs(-55.5));
+    // console.log(Math.abs(-955));
+    // console.log(Math.abs(4-6));
+    
+
+    // Math.ceil() 🙅‍♂️
+    //? Math.ceil(x) returns the value of x rounded up to its nearest integer
+
+    console.log(Math.ceil(4.51));
+    console.log(Math.round(4.51));
+    console.log(Math.ceil(99.1));
+    console.log(Math.round(99.1));
+    
+    
+    
     
     
     
