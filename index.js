@@ -1320,7 +1320,7 @@
     //? ex setTimeout() or setInterval() are the methods
     //? where as Document is the object of the Window and
 
-    //* DOM vs BOM
+    //*! DOM vs BOM
 
     //? 👉 The DOM is the Document Object Model, which deals with the document, the HTML elements themselves,
     //? e.g document and all traversal you would do in it, events, etc.
@@ -1339,10 +1339,22 @@
     //? they are directly not related to the document,
     //? but represent pure browser methods of communicating with the user.
 
-    alert(location.href); //? shows current URL
-    if(confirm("Want to Visit MuktinathTech")) {
-      location.href = "https://muktinathrajbanshi.com/"; //redirect the page
-    }
+    // alert(location.href); //? shows current URL
+    // if(confirm("Want to Visit MuktinathTech?")) {
+    //   location.href = "https://muktinathrajbanshi.com/"; //redirect the page
+    // }
+
+    //?👉 Section 3: Navigate through the DOM
+  //? 1: document.documentElement
+  //? returns the Element that is the root element of the document.
+
+  //? 2: document.head
+  //? 3: document.body
+  //? 4: document.body.childNodes (include tab, enter and whiteSpace) list of the direct children only
+  //? 5: document.children (without text nodes, only regular Elements)
+  //? 6: document.childNodes.length
+  
+
 
     
     
