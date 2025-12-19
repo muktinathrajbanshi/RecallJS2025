@@ -1335,7 +1335,14 @@
 
     //? Let's see more practical on History Object
 
-    
+    //? Functions alert/confirm/prompt are also a part of BOM:
+    //? they are directly not related to the document,
+    //? but represent pure browser methods of communicating with the user.
+
+    alert(location.href); //? shows current URL
+    if(confirm("Want to Visit MuktinathTech")) {
+      location.href = "https://muktinathrajbanshi.com/"; //redirect the page
+    }
 
     
     
