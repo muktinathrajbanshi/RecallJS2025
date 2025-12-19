@@ -1316,6 +1316,9 @@
     //? For example
     // ? 👉 document.getElementById()
     
+    //? 3 Window has methods, properties and object.
+    //? ex setTimeout() or setInterval() are the methods
+    //? where as Document is the object of the Window and
     
     
     
