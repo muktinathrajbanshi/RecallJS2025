@@ -5,27 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      body {
+      * {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
         box-sizing: border-box;
         display: flex;
         justify-content: center;
         align-content: center;
         background-color: #34495e;
+        flex-direction: column;
+        text-align: center;
+        border: 19px solid red;
+      }
+
+      button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
       .button_sub {
         padding: 0.5rem 1rem;
-        border: 1px solid red;
+        width: 12rem;
+        height: 3rem;
         background-color: #f39c12;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         color: #fff;
+        border-radius: 0.5rem;
+        margin-top: 2.5rem;
       }
       p {
         font-size: 1.4rem;
+        color: #fff;
       }
     </style>
   </head>
