@@ -1319,8 +1319,16 @@
     //? 3 Window has methods, properties and object.
     //? ex setTimeout() or setInterval() are the methods
     //? where as Document is the object of the Window and
-    
-    
+
+    //* DOM vs BOM
+
+    //? 👉 The DOM is the Document Object Model, which deals with the document, the HTML elements themselves,
+    //? e.g document and all traversal you would do in it, events, etc.
+
+    //? For ex: 💁
+    //? change the background color to red
+    //? document.body.style.background = "red";
+        
     
     
     
