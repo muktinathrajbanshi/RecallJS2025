@@ -1366,6 +1366,22 @@
   //? const data = document.body.firstElementChild;
   //? undefined
   //? data
+  //? data.firstElementChild
+  //? data.firstElementChild.firstElementChild
+  //? data.firstElementChild.firstElementChild.style.color = "red"
+  //? vs
+  //? document.querySelector(".child-two").style.color = "yellow";
+
+  //? 👉 How to find the Parent Nodes
+  //? document.body.parentNode
+  //? document.body.parentElement
+
+  //? 👉 How to find or access the siblings
+  //? document.body.nextSibling
+  //? document.body.nextElementSibling
+  //? document.body.previousSibling
+  //? document.body.previousElementSibling
+  
 
     
     
