@@ -1359,7 +1359,13 @@
   //? How to check whether an element has child nodes or not?
   //? we will use hasChildNodes()
   
-
+  //? 👉 Practice Time
+  //? How to find the child in DOM tree
+  //? firstChild vs firstElementChild
+  //? lastChild vs lastElementChild
+  //? const data = document.body.firstElementChild;
+  //? undefined
+  //? data
 
     
     
