@@ -1351,8 +1351,13 @@
   //? 2: document.head
   //? 3: document.body
   //? 4: document.body.childNodes (include tab, enter and whiteSpace) list of the direct children only
-  //? 5: document.children (without text nodes, only regular Elements)
+  //? 5: document.body.children (without text nodes, only regular Elements)
   //? 6: document.childNodes.length
+  //? 7: document.body.childNodes() (to check whether child node is exist or not)
+
+  //? 👉 Practice Time
+  //? How to check whether an element has child nodes or not?
+  //? we will use hasChildNodes()
   
 
 
