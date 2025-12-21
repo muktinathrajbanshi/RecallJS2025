@@ -30,7 +30,8 @@
       border: none;
       cursor: pointer;
     }
-    p {
+    p,
+    form {
       text-align: center;
       color: rgba(255, 255, 255, 0.8);
     }
@@ -45,14 +46,16 @@
     <p>Don't forget to subscribe my Channel</p>
     <h1 id="heading">changed the content of the h1</h1>
 
-    <!-- <form action="">
+    <form action="">
       <label for="">male</label>
       <input type="text" name="gender" id="" />
       <label for="">female</label>
       <input type="text" name="gender" id="" />
       <label for="">malefemale</label>
       <input type="text" name="gender" id="" />
-    </form> -->
+    </form>
+
+    <br />
 
     <button onclick="changeContent()">click me</button>
 
@@ -65,6 +68,10 @@
         //by taking the Reference, heading is the object here
         const headingChange = document.getElementById("heading");
         headingChange.innerHTML = "welcome back!";
+
+        // console.log(document.getElementsByClassName("para"));
+
+        console.log(document.getElementsByTagName("p"));
 
         // 👉 Now the same we have is the query selector 👉
         // 👉 querySelector returns the first matching value whereas
