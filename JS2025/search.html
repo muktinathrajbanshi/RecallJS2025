@@ -66,16 +66,22 @@
         //   "welcome to Muktinath Tech";
 
         //by taking the Reference, heading is the object here
-        const headingChange = document.getElementById("heading");
-        headingChange.innerHTML = "welcome back!";
+        // const headingChange = document.getElementById("heading");
+        // headingChange.innerHTML = "welcome back!";
 
         // console.log(document.getElementsByClassName("para"));
 
-        console.log(document.getElementsByTagName("p"));
+        // console.log(document.getElementsByTagName("p"));
+
+        // console.log(document.getElementsByName("gender"));
 
         // 👉 Now the same we have is the query selector 👉
-        // 👉 querySelector returns the first matching value whereas
-        // 👉 querySelectorAll() will return all the elements
+        // querySelector returns the first matching value whereas
+        // querySelectorAll() will return all the elements
+
+        // document.querySelector("#heading").innerHTML = "I changed again";
+        // document.querySelector(".para").innerHTML = "I changed again";
+        console.log(document.querySelectorAll("#heading"));
       };
     </script>
   </body>
