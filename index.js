@@ -1381,8 +1381,18 @@
   //? document.body.nextElementSibling
   //? document.body.previousSibling
   //? document.body.previousElementSibling
-  
 
+
+    //? SECTION 4: How to search the Elements and the References 
+    //? We will see the new file
+
+    //?! Section 11 👉 EVENTS in JavaScript
+
+    //? HTML events are "things" that happen to HTML elements.
+    //? When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+
+    //? 💁 HTML Events
+    //? An HTML event can be something the browser does, or something a user does.
     
     
     
