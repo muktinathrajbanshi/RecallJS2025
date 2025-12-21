@@ -59,10 +59,13 @@
     <script>
       const changeContent = () => {
         // we can directly write
-        document.getElementById("heading").innerHTML =
-          "welcome to Muktinath Tech";
+        // document.getElementById("heading").innerHTML =
+        //   "welcome to Muktinath Tech";
 
         //by taking the Reference, heading is the object here
+        const headingChange = document.getElementById("heading");
+        headingChange.innerHTML = "welcome back!";
+
         // 👉 Now the same we have is the query selector 👉
         // 👉 querySelector returns the first matching value whereas
         // 👉 querySelectorAll() will return all the elements
