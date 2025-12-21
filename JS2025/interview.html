@@ -18,9 +18,9 @@
 
 <!-- getElementById vs querySelector: Difference  -->
 
-👉 What if you want to get the HTML content of the third li? You will not be
+<!-- 👉 What if you want to get the HTML content of the third li? You will not be
 able to use getElementById because there is no id associated with it. But you
-can so with querySelector.
+can so with querySelector. -->
 
 <html lang="en">
   <head>
@@ -36,8 +36,12 @@ can so with querySelector.
       <li class="web-class">JavaScript</li>
     </ul>
     <script>
-      console.log(document.getElementById("web-id").innerHTML);
-      console.log(document.querySelector("#web-id").innerHTML);
+      //   console.log(document.getElementById("web-id").innerHTML);
+      //   console.log(document.querySelector("#web-id").innerHTML);
+
+      console.log(document.querySelector("ul li.web-class").innerHTML);
+      console.log(document.querySelector("li.web-class").innerHTML);
+      console.log(document.querySelector(".web-class").innerHTML);
     </script>
   </body>
 </html>
