@@ -92,7 +92,7 @@
           <a
             href="#"
             class="button_su_inner"
-            onclick="alert('I am awesome, But No')"
+            onclick="alert('I am awesome, But No one use me')"
           >
             <span class="button_text_container"> simple Inline alert() </span>
           </a>
@@ -116,15 +116,18 @@
 
         <div class="button_su">
           <span class="su_button_circle"> </span>
-          <a href="#" class="button_su_inner">
-            <span class="button_text_container" id="fourthWay">
-              Event Listeners
-            </span>
+          <a href="#" class="button_su_inner" id="fourthWay">
+            <span class="button_text_container"> Event Listeners </span>
           </a>
         </div>
       </div>
     </div>
 
-    <script></script>
+    <script>
+      // 2nd way of writing function
+      const callingFunction = () => {
+        alert("most common way of writing functions");
+      };
+    </script>
   </body>
 </html>
