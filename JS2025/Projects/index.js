@@ -1412,6 +1412,8 @@
     //? 3: using Inline events (HTML onclick="" property and element.onclick)
     //? 4: using Event Listeners (addEventListener and IE's attachEvent)
     
+    //? Check the Events HTML File
+
     
     
     
