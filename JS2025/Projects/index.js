@@ -1419,8 +1419,11 @@
     //? for Example
 
     //? MouseEvent, focusEvent, KeyboardEvent etc
-    
-    
+
+    //?! Section 3: MouseEvent in JavaScript
+    //? The MouseEvent Object
+    //? Events that occur when the mouse interacts with the HTML
+    //? document belongs to the MouseEvent Object.
     
     
     
