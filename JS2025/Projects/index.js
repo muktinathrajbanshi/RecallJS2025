@@ -1414,6 +1414,11 @@
     
     //? Check the Events HTML File
 
+    //?! Section 2: What is Event Object?
+    //? Event object is the parent object of the event object.
+    //? for Example
+
+    //? MouseEvent, focusEvent, KeyboardEvent etc
     
     
     
