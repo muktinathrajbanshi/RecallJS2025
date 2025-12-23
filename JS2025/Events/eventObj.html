@@ -96,5 +96,18 @@
         </div>
       </div>
     </div>
+
+    <script>
+      const fourthWay = document.getElementById("fourthWay");
+
+      const checkEvent = () => {
+        alert("let's see event object");
+        console.log(event);
+        console.log(event.target);
+        console.log(event.type);
+      };
+
+      fourthWay.addEventListener("click", checkEvent);
+    </script>
   </body>
 </html>
