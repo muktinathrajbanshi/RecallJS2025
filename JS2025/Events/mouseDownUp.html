@@ -3,11 +3,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        font-family: "Inconsolata", sans-serif;
+        background: #2a364f;
+      }
+      p {
+        color: grey;
+        font-size: 1.8rem;
+      }
+    </style>
   </head>
   <body>
     <p id="myP" onmousedown="mouseDown()" onmouseup="mouseUp()">
       Click the text! The mouseDown() function is triggered when the mouse
-      button is present
+      button is pressed down over this paragraph, and sets the color of the text
+      to red. The mouseUp() function is triggered when the mouse button is
+      released, and sets the color of the text to green. button is present
     </p>
+    <script>
+      function mouseDown() {
+        document.getElementById("myP").style.color = "#F8B627";
+      }
+      function mouseUp() {
+        document.getElementById("myP").style.color = "#fff";
+      }
+    </script>
   </body>
 </html>
