@@ -1429,9 +1429,13 @@
     //? Events that occur when user presses a key on the keyboard,
     //? belongs to the keyboardEvent Object.
     //? https://www.w3schools.com/jsref/obj_keyboardevent.asp
+    
+    
+     //?! Section 5: InputEvents in JavaScript
+     //? The onchange event occurs when the value of an element has been changed.
      
-    
-    
+     //? For radiobuttons and checkboxes, the onchange event occurs when the 
+     //? checked state has been changed.
     
     
     
