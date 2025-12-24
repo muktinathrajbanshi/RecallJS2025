@@ -76,10 +76,22 @@
     </div>
 
     <script>
-      const keyPress = () => {
-        document.getElementById(
-          "keys"
-        ).innerHTML = `you press ${event.key} and it's code is ${event.code}`;
+      //   const keyPress = () => {
+      //     document.getElementById(
+      //       "keys"
+      //     ).innerHTML = `you press ${event.key} and it's code is ${event.code}`;
+      //   };
+
+      // better to use 2nd and 3rd once
+
+      const keyDown = () => {
+        document.getElementById("keys").innerHTML = `key is Down`;
+        // when we click backslash to delete then it will run
+      };
+
+      const keyUp = () => {
+        document.getElementById("keys").innerHTML = `key is Up`;
+        // when we click backslash to delete then it will run
       };
     </script>
   </body>
