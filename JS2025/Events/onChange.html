@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Inconsolata", sans-serif;
+        background: #2a364f;
+      }
+
+      @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+
+      .main-div {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+      <div>
+        <label for="">Your Name 👉 </label>
+        <input type="text" name="" id="ice" />
+        <br />
+        <label
+          >Choose an ice cream flavor 😎
+          <select name="iceCreams" id="iceCreams" onchange="selectElement()">
+            <option value="">Select One ...</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="sardine">Sardine</option>
+            <option value="vanilla">Vanilla</option>
+          </select>
+        </label>
+        <br />
+        <div id="result"></div>
+      </div>
+    </div>
+  </body>
+</html>
