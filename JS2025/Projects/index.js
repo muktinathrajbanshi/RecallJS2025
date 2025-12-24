@@ -1424,8 +1424,12 @@
     //? The MouseEvent Object
     //? Events that occur when the mouse interacts with the HTML
     //? document belongs to the MouseEvent Object.
-    
-    
+
+    //?! Section 4: KeyboardEvent in JavaScript
+    //? Events that occur when user presses a key on the keyboard,
+    //? belongs to the keyboardEvent Object.
+    //? https://www.w3schools.com/jsref/obj_keyboardevent.asp
+     
     
     
     
