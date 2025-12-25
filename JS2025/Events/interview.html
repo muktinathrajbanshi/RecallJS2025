@@ -135,6 +135,13 @@
       };
 
       fourthWay.addEventListener("click", callingFun);
+
+      // Conclusion
+      // This is because addEventListener does not overwrite existing event handlers, whereas
+      // onclick overrides any existing onclick = fn event handlers.
+
+      // The other significant difference, of course, is that onclick will always work,
+      // whereas addEventListener does not work in Internet Explorer before version 9.
     </script>
   </body>
 </html>
