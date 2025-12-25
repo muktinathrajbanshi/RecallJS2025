@@ -36,6 +36,10 @@
       label {
         color: #fff;
       }
+
+      #result {
+        color: #cec0c0;
+      }
     </style>
   </head>
   <body>
@@ -57,5 +61,15 @@
         <div id="result"></div>
       </div>
     </div>
+
+    <script>
+      const selectElement = () => {
+        const inputChange = document.getElementById("ice").value;
+        const iceCreams = document.getElementById("iceCreams").value;
+        const result = document.getElementById("result");
+
+        result.innerHTML = `Mr ${inputChange} select ${iceCreams} ice-cream flavour`;
+      };
+    </script>
   </body>
 </html>
