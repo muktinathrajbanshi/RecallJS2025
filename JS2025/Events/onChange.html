@@ -50,7 +50,7 @@
         <br />
         <label
           >Choose an ice cream flavor 😎
-          <select name="iceCreams" id="iceCreams" onchange="selectElement()">
+          <select name="iceCreams" id="iceCreams">
             <option value="">Select One ...</option>
             <option value="chocolate">Chocolate</option>
             <option value="sardine">Sardine</option>
@@ -63,13 +63,21 @@
     </div>
 
     <script>
-      const selectElement = () => {
+      // const selectElement = () => {
+      //   const inputChange = document.getElementById("ice").value;
+      //   const iceCreams = document.getElementById("iceCreams").value;
+      //   const result = document.getElementById("result");
+
+      //   result.innerHTML = `Mr ${inputChange} select ${iceCreams} ice-cream flavour`;
+      // }
+      const iceCreams = document.getElementById("iceCreams");
+      iceCreams.addEventListener("change", () => {
         const inputChange = document.getElementById("ice").value;
         const iceCreams = document.getElementById("iceCreams").value;
         const result = document.getElementById("result");
 
         result.innerHTML = `Mr ${inputChange} select ${iceCreams} ice-cream flavour`;
-      };
+      });
     </script>
   </body>
 </html>
