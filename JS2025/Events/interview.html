@@ -89,51 +89,52 @@
       <div class="button_container">
         <div class="button_su">
           <span class="su_button_circle"> </span>
-          <a
-            href="#"
-            class="button_su_inner"
-            onclick="alert('I am awesome, But No one use me')"
-          >
-            <span class="button_text_container"> Inline event </span>
+          <a href="#" class="button_su_inner" onclick="alert('I am another')">
+            <span class="button_text_container" id="thirdWay">
+              Inline event
+            </span>
           </a>
         </div>
 
         <div class="button_su">
           <span class="su_button_circle"> </span>
           <a href="#" class="button_su_inner" onclick="callingFunction()">
-            <span class="button_text_container"> Event Listener </span>
+            <span class="button_text_container" id="fourthWay">
+              Event Listener
+            </span>
           </a>
         </div>
       </div>
     </div>
 
     <script>
-      // 2nd way of writing function
-      const callingFunction = () => {
-        alert("most common way of writing functions");
-      };
-
       //   3rd way of writing function
       const thirdWay = document.getElementById("thirdWay");
 
       thirdWay.onclick = function () {
-        console.log("most common way of writing functions again");
+        alert(`I am another way of using events`);
       };
 
       thirdWay.onclick = function () {
-        alert("most common way of writing functions again");
+        alert(`I am again calling using onclick`);
       };
 
       //   4th way of writing function
+
+      // 1 way
       const fourthWay = document.querySelector("#fourthWay");
 
       fourthWay.addEventListener("click", () => {
-        alert("I prefer this way of writing functions!");
+        alert("I am another way of using events!");
       });
 
-      fourthWay.addEventListener("click", () => {
-        console.log("I prefer this way of writing functions!");
-      });
+      // 2nd way
+
+      const callingFun = () => {
+        console.log("I am another way of using events 2");
+      };
+
+      fourthWay.addEventListener("click", callingFun);
     </script>
   </body>
 </html>
