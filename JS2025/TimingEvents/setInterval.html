@@ -61,5 +61,21 @@
         <button id="btn">Click here</button>
       </div>
     </div>
+
+    <script>
+      const stopNum = document.querySelector("p");
+      const btn = document.querySelector("#btn");
+
+      const showMyNum = () => {
+        stopNum.innerHTML = "Loading... 🤷‍♂️";
+        let num = 0;
+        setInterval(() => {
+          stopNum.innerHTML = `${num}`;
+          num++;
+        }, 1000);
+      };
+
+      btn.addEventListener("click", showMyNum);
+    </script>
   </body>
 </html>
