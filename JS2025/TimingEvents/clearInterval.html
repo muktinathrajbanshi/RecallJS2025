@@ -62,5 +62,28 @@
         <button id="btn1">Stop</button>
       </div>
     </div>
+    <script>
+      const stopNum = document.querySelector("p");
+      const btn = document.querySelector("#btn");
+      const stopInterval = document.querySelector("#btn1");
+
+      let timeRef;
+      let num = 0;
+
+      const showMyName = () => {
+        stopNum.innerHTML = "Loading... 🤷‍♂️";
+
+        timeRef = setInterval(() => {
+          stopNum.innerHTML = `${num}`;
+          num++;
+        }, 1000);
+      };
+
+      btn.addEventListener("click", showMyName);
+
+      stopInterval.addEventListener("click", () => {
+        clearInterval(timeRef);
+      });
+    </script>
   </body>
 </html>
