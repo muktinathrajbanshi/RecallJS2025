@@ -1468,6 +1468,17 @@
 
     //? How to create an Object?
 
+    //? 1st way
+
+    let bioData = {
+      myName : "muktinath tech",
+      myAge : 26,
+      getData : function() {
+        console.log(`My name is ${bioData.myName} and my age is ${bioData.myAge}`);
+      }
+    }
+    bioData.getData();
+    
     
 
 
