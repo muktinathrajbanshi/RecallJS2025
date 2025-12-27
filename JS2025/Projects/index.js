@@ -1470,15 +1470,26 @@
 
     //? 1st way
 
+    // let bioData = {
+    //   myName : "muktinath tech",
+    //   myAge : 26,
+    //   getData : function() {
+    //     console.log(`My name is ${bioData.myName} and my age is ${bioData.myAge}`);
+    //   }
+    // }
+    // bioData.getData();
+
+    //? 2nd way no need to write functions as well after es6
+
     let bioData = {
-      myName : "muktinath tech",
-      myAge : 26,
-      getData : function() {
-        console.log(`My name is ${bioData.myName} and my age is ${bioData.myAge}`);
-      }
-    }
-    bioData.getData();
-    
+     myName : "muktinath tech",
+     myAge : 26,
+     getData () {
+       console.log(`My name is ${bioData.myName} and my age is ${bioData.myAge}`);
+     }
+   }
+   bioData.getData();
+
     
 
 
