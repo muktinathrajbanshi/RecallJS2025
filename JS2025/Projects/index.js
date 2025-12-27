@@ -1492,18 +1492,32 @@
 
   //? 👉 What if we want object as a value inside an Object
 
-    let bioData = {
-     myName : {
-      realName : "muktinath",
-      channelName : "@muktinathrajbanshi219"
-     },
-     myAge : 26,
-     getData () {
-       console.log(`My name is ${bioData.myName} and my age is ${bioData.myAge}`);
-     }
-   }
-   console.log(bioData.myName.channelName);
-   
+  //   let bioData = {
+  //    myName : {
+  //     realName : "muktinath",
+  //     channelName : "@muktinathrajbanshi219"
+  //    },
+  //    myAge : 26,
+  //    getData () {
+  //      console.log(`My name is ${bioData.myName} and my age is ${bioData.myAge}`);
+  //    }
+  //  }
+  //  console.log(bioData.myName.channelName);
+
+  //? 2 What is this Object?
+
+  //? The definition of "this" object is that it contain the current context.
+  //? The this object can have different values depending on where it is placed.
+
+  //? For Example 1:
+  console.log(this.alert("Awesome"));
+  //? it refers to the current context and that is window global object
+
+  //? ex 2:
+  function myName() {
+    console.log(this);
+  }
+   myName();
     
 
 
