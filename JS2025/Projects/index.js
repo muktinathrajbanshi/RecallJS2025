@@ -1527,13 +1527,24 @@
   // myName();
 
   //? ex 4:
+  // const obj = {
+  //   myAge : 23,
+  //   myName() {
+  //     console.log(this.myAge);
+  //   }
+  // }
+  // obj.myName();
+
+  //? ex 5: 
+
   const obj = {
     myAge : 23,
-    myName() {
-      console.log(this.myAge);
+      myName : () => {
+      console.log(this);
+     }
     }
-  }
-  obj.myName();
+   obj.myName();
+  
 
   
   
