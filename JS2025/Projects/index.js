@@ -1456,6 +1456,21 @@
     //? 3. setInterval()
     //? 4. clearInterval()
     
+    //?! 👉 object oriented in JavaScript
+
+    //? 1. What is Object Literal?
+
+    //? Object literal is simply a key:value pair data structure.
+    //? Storing variables and functions together in one container,
+    //? we can refer this as an Objects.
+
+    //? object = school bag
+
+    //? How to create an Object?
+
+    
+
+
   
   
   
