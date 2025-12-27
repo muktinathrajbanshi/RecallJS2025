@@ -1510,16 +1510,30 @@
   //? The this object can have different values depending on where it is placed.
 
   //? For Example 1:
-  console.log(this.alert("Awesome"));
+  // console.log(this.alert("Awesome"));
   //? it refers to the current context and that is window global object
 
   //? ex 2:
-  function myName() {
-    console.log(this);
-  }
-   myName();
+  // function myName() {
+  //   console.log(this);
+  // }
+  //  myName();
     
+  //? ex 3:
+  // var realName = "muktinath";
+  // function myName() {
+  //   console.log(this.realName);
+  // }
+  // myName();
 
+  //? ex 4:
+  const obj = {
+    myAge : 23,
+    myName() {
+      console.log(this.myAge);
+    }
+  }
+  obj.myName();
 
   
   
