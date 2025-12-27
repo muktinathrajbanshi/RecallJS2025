@@ -1481,15 +1481,29 @@
 
     //? 2nd way no need to write functions as well after es6
 
+  //   let bioData = {
+  //    myName : "muktinath tech",
+  //    myAge : 26,
+  //    getData () {
+  //      console.log(`My name is ${bioData.myName} and my age is ${bioData.myAge}`);
+  //    }
+  //  }
+  //  bioData.getData();
+
+  //? 👉 What if we want object as a value inside an Object
+
     let bioData = {
-     myName : "muktinath tech",
+     myName : {
+      realName : "muktinath",
+      channelName : "@muktinathrajbanshi219"
+     },
      myAge : 26,
      getData () {
        console.log(`My name is ${bioData.myName} and my age is ${bioData.myAge}`);
      }
    }
-   bioData.getData();
-
+   console.log(bioData.myName.channelName);
+   
     
 
 
