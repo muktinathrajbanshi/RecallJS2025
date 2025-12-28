@@ -596,11 +596,16 @@
     
     // console.log(myFavColors);
     
-    //? ES7 Features
-    //? 1. array include
-    const colors = ["red", "green", "blue", "white", "pink"];
-    const isPresent = colors.includes("purple");
-    console.log(isPresent);
+    //?! ES7 (2016) Features
+    //? 1. Array.prototype.includes(array include) 
+    // const colors = ["red", "green", "blue", "white", "pink"];
+    // const isPresent = colors.includes("purple");
+    // console.log(isPresent);
+
+    //? 2. Exponential Operator [power (**)] 
+    console.log(2**3);
+    
+
     
 
     //! 8. 👉 Arrays in JavaScript
