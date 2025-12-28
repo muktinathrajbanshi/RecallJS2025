@@ -1566,7 +1566,7 @@
   //? 👉 Array Destructuring 🦸‍♂️ 
 
   
-  const myBioData = ["muktinath", "rajbanshi", 23];
+  // const myBioData = ["muktinath", "rajbanshi", 23];
   
   // let myFName =myBioData[0];
   // let myLName = myBioData[1];
@@ -1578,10 +1578,23 @@
 
   //? we can add values too
 
-  let [myFName, myLName, myAge, myDegree="BCA"] = myBioData;
-  console.log(myDegree);
+  // let [myFName, myLName, myAge, myDegree="BCA"] = myBioData;
+  // console.log(myDegree);
   
-  
+    //? 👉 Object Destructuring 🦸‍♂️ 
+    
+    const myBioData = {
+      myFname : "muktinath",
+      myLname : "rajbanshi",
+      myAge : 23
+    }
+
+    // let age = myBioData.age;
+    // let myFName = myBioData.myFname;
+    
+    let {myFname, myLname, myAge, myDegree="BCA"} = myBioData;
+    console.log(myLname);
+    
 
   
   
