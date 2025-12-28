@@ -587,16 +587,22 @@
 
     //! 8. 👉 Spread Operator in JavaScript
 
-    const colors = ["red", "green", "blue", "white"];
+    // const colors = ["red", "green", "blue", "white"];
 
-    const myColors = ["red", "green", "blue", "white", "yellow", "black"];
-    //? 2nd time add one more color on top and tell we need to write it again on myColors array too
+    // const myColors = ["red", "green", "blue", "white", "yellow", "black"];
+    // //? 2nd time add one more color on top and tell we need to write it again on myColors array too
 
-    const myFavColors = [ ...colors, "yellow", "black"];
+    // const myFavColors = [ ...colors, "yellow", "black"];
     
-    console.log(myFavColors);
+    // console.log(myFavColors);
     
+    //? ES7 Features
+    //? 1. array include
+    const colors = ["red", "green", "blue", "white", "pink"];
+    const isPresent = colors.includes("purple");
+    console.log(isPresent);
     
+
     //! 8. 👉 Arrays in JavaScript
     //? When we use var, we can stored only one value at a time.
     // var frnd1 = "ramesh";
