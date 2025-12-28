@@ -1564,6 +1564,22 @@
   //? arrays, or properties from objects, into distinct variables.
 
   //? 👉 Array Destructuring 🦸‍♂️ 
+
+  
+  const myBioData = ["muktinath", "rajbanshi", 23];
+  
+  // let myFName =myBioData[0];
+  // let myLName = myBioData[1];
+  // let myAge = myBioData[2];
+  
+  
+  // let [myFName, myLName, myAge] = myBioData;
+  // console.log(myFName);
+
+  //? we can add values too
+
+  let [myFName, myLName, myAge, myDegree="BCA"] = myBioData;
+  console.log(myDegree);
   
   
 
