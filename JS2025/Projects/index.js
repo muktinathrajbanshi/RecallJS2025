@@ -1600,14 +1600,20 @@
 
       //? 👉 We can now use Dynamic Properties
 
-        let myName = "muktinath";
-        const myBio = {
-          [myName] : "hello how are you?",
-          [20 + 3] : "is my age"
-        }
-        console.log(myBio);
+        // let myName = "muktinath";
+        // const myBio = {
+        //   [myName] : "hello how are you?",
+        //   [20 + 3] : "is my age"
+        // }
+        // console.log(myBio);
         
 
+      //? 👉 no need to write key and value, if both are same
+      let myName = "muktinath rajbanshi";
+      let myAge = 23;
+
+      const myBio = {myName, myAge}
+      console.log(myBio);
       
 
       
