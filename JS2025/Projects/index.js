@@ -597,13 +597,34 @@
     // console.log(myFavColors);
     
     //?! ES7 (2016) Features
+
     //? 1. Array.prototype.includes(array include) 
     // const colors = ["red", "green", "blue", "white", "pink"];
     // const isPresent = colors.includes("purple");
     // console.log(isPresent);
 
     //? 2. Exponential Operator [power (**)] 
-    console.log(2**3);
+    // console.log(2**3);
+
+    //?! ES8 (2017) Features
+
+    //? 1. String padding
+    //? 2. Object.values()
+    //? 3. Object.entries()
+
+    // const message = "my name is muktinath";
+    // console.log(message);
+    // console.log(message.padStart(5));
+    // console.log(message.padEnd(10));
+
+    const person = { name: "Fred", age: 23};
+
+    // console.log(Object.values(person));
+    console.log(Object.entries(person));
+    
+    
+    
+    
     
 
     
