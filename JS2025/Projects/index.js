@@ -1546,18 +1546,25 @@
   //  obj.myName();
 
   //? ex 6:
-  let bioData = {
-    myName : {
-      realName : "muktinath rajbanshi",
-      channelName : "@muktinathrajbanshi219"
-    },
-    // things to remember is that the myName is the 
-    myAge : 23,
-    getData () {
-      console.log(`My name is ${this.myName.realName} and my age is ${this.myAge}`);
-    }
-  }
-  bioData.getData();
+  // let bioData = {
+  //   myName : {
+  //     realName : "muktinath rajbanshi",
+  //     channelName : "@muktinathrajbanshi219"
+  //   },
+  //   // things to remember is that the myName is the 
+  //   myAge : 23,
+  //   getData () {
+  //     console.log(`My name is ${this.myName.realName} and my age is ${this.myAge}`);
+  //   }
+  // }
+  // bioData.getData();
+
+  //?! 4. Destructuring in ES6
+  //? The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from
+  //? arrays, or properties from objects, into distinct variables.
+
+  //? 👉 Array Destructuring 🦸‍♂️ 
+  
   
 
   
