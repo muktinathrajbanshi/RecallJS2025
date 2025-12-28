@@ -584,6 +584,18 @@
     
     // const sum = () => `the sum of the two number is ${(a = 6) + (b = 6)}`;
     // console.log(sum());
+
+    //! 8. 👉 Spread Operator in JavaScript
+
+    const colors = ["red", "green", "blue", "white"];
+
+    const myColors = ["red", "green", "blue", "white", "yellow", "black"];
+    //? 2nd time add one more color on top and tell we need to write it again on myColors array too
+
+    const myFavColors = [ ...colors, "yellow", "black"];
+    
+    console.log(myFavColors);
+    
     
     //! 8. 👉 Arrays in JavaScript
     //? When we use var, we can stored only one value at a time.
@@ -1609,11 +1621,11 @@
         
 
       //? 👉 no need to write key and value, if both are same
-      let myName = "muktinath rajbanshi";
-      let myAge = 23;
+      // let myName = "muktinath rajbanshi";
+      // let myAge = 23;
 
-      const myBio = {myName, myAge}
-      console.log(myBio);
+      // const myBio = {myName, myAge}
+      // console.log(myBio);
       
 
       
