@@ -1537,13 +1537,27 @@
 
   //? ex 5: 
 
-  const obj = {
+  // const obj = {
+  //   myAge : 23,
+  //     myName : () => {
+  //     console.log(this);
+  //    }
+  //   }
+  //  obj.myName();
+
+  //? ex 6:
+  let bioData = {
+    myName : {
+      realName : "muktinath rajbanshi",
+      channelName : "@muktinathrajbanshi219"
+    },
+    // things to remember is that the myName is the 
     myAge : 23,
-      myName : () => {
-      console.log(this);
-     }
+    getData () {
+      console.log(`My name is ${this.myName.realName} and my age is ${this.myAge}`);
     }
-   obj.myName();
+  }
+  bioData.getData();
   
 
   
