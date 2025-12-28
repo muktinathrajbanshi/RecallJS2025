@@ -1583,20 +1583,35 @@
   
     //? 👉 Object Destructuring 🦸‍♂️ 
     
-    const myBioData = {
-      myFname : "muktinath",
-      myLname : "rajbanshi",
-      myAge : 23
-    }
+    // const myBioData = {
+    //   myFname : "muktinath",
+    //   myLname : "rajbanshi",
+    //   myAge : 23
+    // }
 
-    // let age = myBioData.age;
-    // let myFName = myBioData.myFname;
+    // // let age = myBioData.age;
+    // // let myFName = myBioData.myFname;
     
-    let {myFname, myLname, myAge, myDegree="BCA"} = myBioData;
-    console.log(myLname);
+    // let {myFname, myLname, myAge, myDegree="BCA"} = myBioData;
+    // console.log(myLname);
     
 
-  
+      //? 👉 Object Properties 🦸‍♂️ 
+
+      //? 👉 We can now use Dynamic Properties
+
+        let myName = "muktinath";
+        const myBio = {
+          [myName] : "hello how are you?",
+          [20 + 3] : "is my age"
+        }
+        console.log(myBio);
+        
+
+      
+
+      
+
   
   
   
