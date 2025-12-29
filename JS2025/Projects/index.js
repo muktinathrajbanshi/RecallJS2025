@@ -631,6 +631,9 @@
       // console.log(sPerson);
 
       //?! ES 2019
+
+      //? Array.prototype.{flat,flatMap}
+      //? Object.fromEntries()
       
     //   const arr = [
     //     ["zone_1", "zone_2"],
@@ -644,11 +647,25 @@
     // })
     // console.log(arr.flat(Infinity));
     
-    const person = { name: "Fred", age: 23};
+    // const person = { name: "Fred", age: 23};
 
     // console.log(Object.values(person));
-    const arrObj = Object.entries(person);
-    console.log(Object.fromEntries(arrObj));
+    // const arrObj = Object.entries(person);
+    // console.log(Object.fromEntries(arrObj));
+    
+    
+    //?! ES2020
+    //? #1: BigInt
+
+    let oldNum = Number.MAX_SAFE_INTEGER;
+    // console.log(oldNum);
+    // console.log(9007199254740991n + 12n);
+
+    const newNum = 9007199254740991n + 12n;
+
+    console.log(newNum);
+    console.log(typeof newNum);
+    
     
     
     
