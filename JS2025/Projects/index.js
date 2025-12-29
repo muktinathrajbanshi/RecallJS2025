@@ -617,10 +617,20 @@
     // console.log(message.padStart(5));
     // console.log(message.padEnd(10));
 
-    const person = { name: "Fred", age: 23};
+    // const person = { name: "Fred", age: 23};
 
     // console.log(Object.values(person));
-    console.log(Object.entries(person));
+    // console.log(Object.entries(person));
+
+      //?! ES 2018
+
+      const person = { name: "Fred", age: 23 };
+      const sPerson = { ...person };
+
+      console.log(person);
+      console.log(sPerson);
+      
+      
     
     
     
