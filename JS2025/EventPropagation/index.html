@@ -3,6 +3,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #bdc3c7;
+      }
+
+      .parentDiv {
+        width: 29rem;
+        height: 19rem;
+        background-color: #3498db;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 5.5px solid #2980b9;
+      }
+    </style>
   </head>
   <body>
     <div class="parentDiv" id="parentId">
@@ -15,12 +37,10 @@
 
       const parentCall = () => {
         alert("Parent Div Call");
-        console.log("Parent Div Call");
       };
 
       const childCall = () => {
         alert("Child Div Call");
-        console.log("Child Div Call");
       };
 
       parentId.addEventListener("click", parentCall);
