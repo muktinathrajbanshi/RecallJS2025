@@ -668,9 +668,17 @@
 
     //? #2 Nullish Coalescing
 
-    const foo = null ?? "default string";
+    // const foo = null ?? "default string";
 
-    console.log(foo);
+    // console.log(foo);
+
+    //?! ES2014 update again
+
+    "use strict";
+
+   let x = 3.14;
+    console.log(x);
+    
     
     
     
