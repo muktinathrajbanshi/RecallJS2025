@@ -632,18 +632,23 @@
 
       //?! ES 2019
       
-      const arr = [
-        ["zone_1", "zone_2"],
-        ["zone_3", "zone_4"],
-        ["zone_5", "zone_6"],
-        ["zone_7", "zone_8", ["zone_9", ["zone_9", "zone_10"]]]
-    ];
+    //   const arr = [
+    //     ["zone_1", "zone_2"],
+    //     ["zone_3", "zone_4"],
+    //     ["zone_5", "zone_6"],
+    //     ["zone_7", "zone_8", ["zone_9", ["zone_9", "zone_10"]]]
+    // ];
 
     // let flatArr = arr.reduce((accum, curElem) => {
     //     return accum.concat(curElem);
     // })
-    console.log(arr.flat(Infinity));
+    // console.log(arr.flat(Infinity));
     
+    const person = { name: "Fred", age: 23};
+
+    // console.log(Object.values(person));
+    const arrObj = Object.entries(person);
+    console.log(Object.fromEntries(arrObj));
     
     
     
