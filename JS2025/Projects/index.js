@@ -702,23 +702,23 @@
 
   //? we need to create a calculator
 
-  const add = (a,b) => {
-    return a+b;
-  }
-  const subs = (a,b) => {
-    return Math.abs(a-b);
-  }
-  const mult = (a,b) => {
-    return a*b;
-  }
+  // const add = (a,b) => {
+  //   return a+b;
+  // }
+  // const subs = (a,b) => {
+  //   return Math.abs(a-b);
+  // }
+  // const mult = (a,b) => {
+  //   return a*b;
+  // }
 
-  const calculator = (num1, num2, operator) => {
-    return operator(num1,num2);
-  }
+  // const calculator = (num1, num2, operator) => {
+  //   return operator(num1,num2);
+  // }
 
-  console.log(calculator(5,2,add));
-  console.log(calculator(5,2,subs));
-  console.log(calculator(5,2,mult));
+  // console.log(calculator(5,2,add));
+  // console.log(calculator(5,2,subs));
+  // console.log(calculator(5,2,mult));
   
 
   //? In the above example, calculator is the higher-order function, which accepts three arguments,
@@ -731,6 +731,28 @@
   //? make it simple to use
 
   
+  //?! Asynchronous JavaScript
+
+  //? 1. Hoisting in JavaScript
+
+  //? we have a creation phase and execution phase.
+  //? Hoisting in JS is a mechanism where variables and functions declarations are moved to the top of their
+  //? scope before the code execute.
+
+  //? For Example 👇
+  console.log(myName);
+  var myName;
+  myName = "Muktinath";
+  
+  //? How it will be in output during creation phase
+
+  //? 1. var myName;
+  //? 2. console.log(myName);
+  //? 3. myName = "Muktinath";
+
+  //? 🦹‍♂️ In ES2015 (a.k.a. ES6), hoisting is avoided by using the let keyword instead of var. (The other difference)
+  //? is that variables declared with let are local to the surrounding block, not the entire function.)
+
   
     
     
