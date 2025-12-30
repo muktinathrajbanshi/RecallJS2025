@@ -690,9 +690,16 @@
   //? 2. Higher Order Function
   //? function which takes another function as an arguments is called HOF
   //? wo function jo dusre function ko as an argument accept krta hai use HOF
+
+
+  //? 3. Callback Function
+  //? function which get passed as an argument to another function is called CBF
+  //? A callback function is a function that is passed as an argument to another function, to be "called back"
+  //? at a later time.
+  //? jis bhi function ko hum kisi or function ke under as an arguments passed krte hai
+  //? then usko hum CallBack fun bolte hai
+
   
-
-
     
     
     
