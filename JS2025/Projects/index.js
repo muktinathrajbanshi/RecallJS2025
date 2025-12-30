@@ -721,6 +721,12 @@
   console.log(calculator(5,2,mult));
   
 
+  //? In the above example, calculator is the higher-order function, which accepts three arguments,
+  //? the third one being the callback.
+  //? Here the calculator is called the Higher Order Function because it takes another function as an argument.
+
+  //? and add, sub and mult are called the callback function bcz they are passed as an argument to another function
+
   //? I have to do the hardcoded for each operation which is bad we will use the callback and HOF to
   //? make it simple to use
 
