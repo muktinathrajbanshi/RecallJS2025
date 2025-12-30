@@ -687,6 +687,9 @@
   //? 1. Event Propagation (Event Bubbling and Event Capturing)
   //? check html file
 
+  //? 2. Higher Order Function
+  //? function which takes another function as an arguments is called HOF
+  //? wo function jo dusre function ko as an argument accept krta hai use HOF
   
 
 
