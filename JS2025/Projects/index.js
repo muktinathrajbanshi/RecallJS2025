@@ -699,8 +699,33 @@
   //? jis bhi function ko hum kisi or function ke under as an arguments passed krte hai
   //? then usko hum CallBack fun bolte hai
 
+
+  //? we need to create a calculator
+
+  const add = (a,b) => {
+    return a+b;
+  }
+  const subs = (a,b) => {
+    return Math.abs(a-b);
+  }
+  const mult = (a,b) => {
+    return a*b;
+  }
+
+  const calculator = (num1, num2, operator) => {
+    return operator(num1,num2);
+  }
+
+  console.log(calculator(5,2,add));
+  console.log(calculator(5,2,subs));
+  console.log(calculator(5,2,mult));
   
-    
+
+  //? I have to do the hardcoded for each operation which is bad we will use the callback and HOF to
+  //? make it simple to use
+
+  
+  
     
     
     
