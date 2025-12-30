@@ -674,10 +674,22 @@
 
     //?! ES2014 update again
 
-    "use strict";
+  //   "use strict";
 
-   let x = 3.14;
-    console.log(x);
+  //  let x = 3.14;
+  //   console.log(x);
+
+  // ***********************************************************************
+  //? 👉 How JavaScript Works? Advanced and Asynchronous JavaScript
+  // ***********************************************************************
+
+  //? Advanced JavaScript Section
+  //? 1. Event Propagation (Event Bubbling and Event Capturing)
+  //? check html file
+
+  
+
+
     
     
     
