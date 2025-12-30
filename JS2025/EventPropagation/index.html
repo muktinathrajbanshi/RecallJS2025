@@ -50,10 +50,11 @@
 
       const childCall = () => {
         alert("Child Div Call");
+        // event.stopPropagation();
       };
 
-      parentId.addEventListener("click", parentCall);
-      childId.addEventListener("click", childCall);
+      parentId.addEventListener("click", parentCall, true);
+      childId.addEventListener("click", childCall, true);
     </script>
   </body>
 </html>
