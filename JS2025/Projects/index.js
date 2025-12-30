@@ -1796,8 +1796,21 @@
  //? Lexical Scoping means Now, the inner function can get access to their parent functions variables But the
  //? vice-versa is not true.
 
- 
-    
+ //? For Example 👇 
+    let a = "Hello guys. "; //global scope
+
+    const first = () => {
+      let b = " How are you?"
+
+            const second = () => {
+              let c = " Hii, I am fine thank you🙏";
+              console.log(a+b+c); 
+            } 
+            second();
+            // console.log(a+b+c); // I can't use C
+    }
+
+    first();    
     
   
   
