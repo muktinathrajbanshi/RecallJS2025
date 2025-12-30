@@ -1786,7 +1786,7 @@
   //? is that variables declared with let are local to the surrounding block, not the entire function.)
 
 
- //? What is Scope Chain and Lexical Scoping in JavaScript?
+ //? 2 .What is Scope Chain and Lexical Scoping in JavaScript?
  
  //? The scope chain is used to resolve the value of variable names in JS.
  //? scope chain in JS is lexically defined, which means that we can see what the scope chain will be by looking
@@ -1797,21 +1797,30 @@
  //? vice-versa is not true.
 
  //? For Example 👇 
-    let a = "Hello guys. "; //global scope
+    // let a = "Hello guys. "; //global scope
 
-    const first = () => {
-      let b = " How are you?"
+    // const first = () => {
+    //   let b = " How are you?"
 
-            const second = () => {
-              let c = " Hii, I am fine thank you🙏";
-              console.log(a+b+c); 
-            } 
-            second();
-            // console.log(a+b+c); // I can't use C
-    }
+    //         const second = () => {
+    //           let c = " Hii, I am fine thank you🙏";
+    //           console.log(a+b+c); 
+    //         } 
+    //         second();
+    //         // console.log(a+b+c); // I can't use C
+    // }
 
-    first();    
+    // first();    
     
+    //? 3. What is Closure in JavaScript 😎
+    //? A closure is the combination of a function bundled together (enclosed) with references
+    //? to its surrounding state (the lexical environment).
+
+    //? In other words, a closure gives you access to an outer function's scope from an inner function.
+
+    //? In JS, closures are created every time a function is created, at function creation time.
+    
+
   
   
   
