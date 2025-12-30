@@ -677,91 +677,7 @@
   //   "use strict";
 
   //  let x = 3.14;
-  //   console.log(x);
-
-  // ***********************************************************************
-  //? 👉 How JavaScript Works? Advanced and Asynchronous JavaScript
-  // ***********************************************************************
-
-  //? Advanced JavaScript Section
-  //? 1. Event Propagation (Event Bubbling and Event Capturing)
-  //? check html file
-
-  //? 2. Higher Order Function
-  //? function which takes another function as an arguments is called HOF
-  //? wo function jo dusre function ko as an argument accept krta hai use HOF
-
-
-  //? 3. Callback Function
-  //? function which get passed as an argument to another function is called CBF
-  //? A callback function is a function that is passed as an argument to another function, to be "called back"
-  //? at a later time.
-  //? jis bhi function ko hum kisi or function ke under as an arguments passed krte hai
-  //? then usko hum CallBack fun bolte hai
-
-
-  //? we need to create a calculator
-
-  // const add = (a,b) => {
-  //   return a+b;
-  // }
-  // const subs = (a,b) => {
-  //   return Math.abs(a-b);
-  // }
-  // const mult = (a,b) => {
-  //   return a*b;
-  // }
-
-  // const calculator = (num1, num2, operator) => {
-  //   return operator(num1,num2);
-  // }
-
-  // console.log(calculator(5,2,add));
-  // console.log(calculator(5,2,subs));
-  // console.log(calculator(5,2,mult));
-  
-
-  //? In the above example, calculator is the higher-order function, which accepts three arguments,
-  //? the third one being the callback.
-  //? Here the calculator is called the Higher Order Function because it takes another function as an argument.
-
-  //? and add, sub and mult are called the callback function bcz they are passed as an argument to another function
-
-  //? I have to do the hardcoded for each operation which is bad we will use the callback and HOF to
-  //? make it simple to use
-
-  
-  //?! Asynchronous JavaScript
-
-  //? 1. Hoisting in JavaScript
-
-  //? we have a creation phase and execution phase.
-  //? Hoisting in JS is a mechanism where variables and functions declarations are moved to the top of their
-  //? scope before the code execute.
-
-  //? For Example 👇
-  console.log(myName);
-  var myName;
-  myName = "Muktinath";
-  
-  //? How it will be in output during creation phase
-
-  //? 1. var myName;
-  //? 2. console.log(myName);
-  //? 3. myName = "Muktinath";
-
-  //? 🦹‍♂️ In ES2015 (a.k.a. ES6), hoisting is avoided by using the let keyword instead of var. (The other difference)
-  //? is that variables declared with let are local to the surrounding block, not the entire function.)
-
-  
-    
-    
-    
-    
-    
-    
-
-    
+  //   console.log(x);    
 
     //! 8. 👉 Arrays in JavaScript
     //? When we use var, we can stored only one value at a time.
@@ -1795,7 +1711,94 @@
       
 
       
+// ***********************************************************************
+  //? 👉 How JavaScript Works? Advanced and Asynchronous JavaScript
+  // ***********************************************************************
 
+  //? Advanced JavaScript Section
+  //? 1. Event Propagation (Event Bubbling and Event Capturing)
+  //? check html file
+
+  //? 2. Higher Order Function
+  //? function which takes another function as an arguments is called HOF
+  //? wo function jo dusre function ko as an argument accept krta hai use HOF
+
+
+  //? 3. Callback Function
+  //? function which get passed as an argument to another function is called CBF
+  //? A callback function is a function that is passed as an argument to another function, to be "called back"
+  //? at a later time.
+  //? jis bhi function ko hum kisi or function ke under as an arguments passed krte hai
+  //? then usko hum CallBack fun bolte hai
+
+
+  //? we need to create a calculator
+
+  // const add = (a,b) => {
+  //   return a+b;
+  // }
+  // const subs = (a,b) => {
+  //   return Math.abs(a-b);
+  // }
+  // const mult = (a,b) => {
+  //   return a*b;
+  // }
+
+  // const calculator = (num1, num2, operator) => {
+  //   return operator(num1,num2);
+  // }
+
+  // console.log(calculator(5,2,add));
+  // console.log(calculator(5,2,subs));
+  // console.log(calculator(5,2,mult));
+  
+
+  //? In the above example, calculator is the higher-order function, which accepts three arguments,
+  //? the third one being the callback.
+  //? Here the calculator is called the Higher Order Function because it takes another function as an argument.
+
+  //? and add, sub and mult are called the callback function bcz they are passed as an argument to another function
+
+  //? I have to do the hardcoded for each operation which is bad we will use the callback and HOF to
+  //? make it simple to use
+
+  
+  //?! Asynchronous JavaScript
+
+  //? 1. Hoisting in JavaScript
+
+  //? we have a creation phase and execution phase.
+  //? Hoisting in JS is a mechanism where variables and functions declarations are moved to the top of their
+  //? scope before the code execute.
+
+  //? For Example 👇
+  // console.log(myName);
+  // var myName;
+  // myName = "Muktinath";
+  
+  //? How it will be in output during creation phase
+
+  //? 1. var myName;
+  //? 2. console.log(myName);
+  //? 3. myName = "Muktinath";
+
+  //? 🦹‍♂️ In ES2015 (a.k.a. ES6), hoisting is avoided by using the let keyword instead of var. (The other difference)
+  //? is that variables declared with let are local to the surrounding block, not the entire function.)
+
+
+ //? What is Scope Chain and Lexical Scoping in JavaScript?
+ 
+ //? The scope chain is used to resolve the value of variable names in JS.
+ //? scope chain in JS is lexically defined, which means that we can see what the scope chain will be by looking
+ //? at the code.
+
+ //? At the top, we have the Global Scope, which is the window Object in the browser.
+ //? Lexical Scoping means Now, the inner function can get access to their parent functions variables But the
+ //? vice-versa is not true.
+
+ 
+    
+    
   
   
   
