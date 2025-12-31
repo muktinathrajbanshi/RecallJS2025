@@ -1881,9 +1881,30 @@
 
     //? Currying
 
-    const sum = (num1) => (num2) =>  (num3) => console.log(num1+num2+num3); 
+    // const sum = (num1) => (num2) =>  (num3) => console.log(num1+num2+num3); 
 
-    sum(5)(3)(8);
+    // sum(5)(3)(8);
+
+    //? CallBack Hell
+
+    setTimeout(() => {
+      console.log(`1 work is done`);
+      setTimeout(() => {
+        console.log(`2 work is done`);
+        setTimeout(() => {
+          console.log(`3 works is done`);
+          setTimeout(() => {
+            console.log(`4 works is done`);
+            setTimeout(() => {
+              console.log(`5 works is done`);
+              setTimeout(() => {
+                console.log(`6 works is done`);
+              }, 1000)
+            }, 1000)
+          }, 1000)
+        }, 1000)
+      }, 1000)
+    }, 1000)
 
 
 
