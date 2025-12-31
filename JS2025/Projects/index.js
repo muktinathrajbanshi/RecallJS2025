@@ -1820,6 +1820,18 @@
 
     //? In JS, closures are created every time a function is created, at function creation time.
     
+    //? For Example 👇
+
+    const outerFun = (a) => {
+      let b = 10;
+      const innerFun = () => {
+        let sum = a+b;
+        console.log(`the sum of the two no is ${sum}`);
+      }
+      innerFun();
+    }
+
+    outerFun(5);
 
   
   
