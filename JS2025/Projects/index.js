@@ -1822,16 +1822,32 @@
     
     //? For Example 👇
 
+    // const outerFun = (a) => {
+    //   let b = 10;
+    //   const innerFun = () => {
+    //     let sum = a+b;
+    //     console.log(`the sum of the two no is ${sum}`);
+    //   }
+    //   innerFun();
+    // }
+
+    // outerFun(5);
+
+    //? One more Example 👇 
+
     const outerFun = (a) => {
       let b = 10;
       const innerFun = () => {
         let sum = a+b;
         console.log(`the sum of the two no is ${sum}`);
       }
-      innerFun();
+      return innerFun;
     }
-
-    outerFun(5);
+    let checkClosure = outerFun(5);
+    console.dir(checkClosure);
+     
+    
+    
 
   
   
