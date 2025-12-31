@@ -1853,8 +1853,23 @@
     
     //? Synchronous Javascript Programming
 
+    // const fun2 = () => {
+    //   console.log(`Function 2 is called`);
+    // }
+
+    // const fun1 = () => {
+    //   console.log(`Function 1 is called`);
+    //   fun2();
+    //   console.log(`Function 1 is called again ✌️`);
+    // }
+    // fun1();
+
+    //? Asynchronous Javascript Programming
+
     const fun2 = () => {
-      console.log(`Function 2 is called`);
+      setTimeout(() => {
+        console.log(`Function 2 is called`);
+      }, 2000);
     }
 
     const fun1 = () => {
