@@ -1846,11 +1846,24 @@
     // let checkClosure = outerFun(5);
     // console.dir(checkClosure);
 
-    "use strict"
+    // "use strict"
 
-    let x = "muktinath";
-    console.log(x);
+    // let x = "muktinath";
+    // console.log(x);
     
+    //? Synchronous Javascript Programming
+
+    const fun2 = () => {
+      console.log(`Function 2 is called`);
+    }
+
+    const fun1 = () => {
+      console.log(`Function 1 is called`);
+      fun2();
+      console.log(`Function 1 is called again ✌️`);
+    }
+    fun1();
+
      
     
     
