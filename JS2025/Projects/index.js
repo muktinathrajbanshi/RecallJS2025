@@ -1835,16 +1835,22 @@
 
     //? One more Example 👇 
 
-    const outerFun = (a) => {
-      let b = 10;
-      const innerFun = () => {
-        let sum = a+b;
-        console.log(`the sum of the two no is ${sum}`);
-      }
-      return innerFun;
-    }
-    let checkClosure = outerFun(5);
-    console.dir(checkClosure);
+    // const outerFun = (a) => {
+    //   let b = 10;
+    //   const innerFun = () => {
+    //     let sum = a+b;
+    //     console.log(`the sum of the two no is ${sum}`);
+    //   }
+    //   return innerFun;
+    // }
+    // let checkClosure = outerFun(5);
+    // console.dir(checkClosure);
+
+    "use strict"
+
+    let x = "muktinath";
+    console.log(x);
+    
      
     
     
