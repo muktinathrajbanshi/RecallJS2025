@@ -1866,18 +1866,27 @@
 
     //? Asynchronous Javascript Programming
 
-    const fun2 = () => {
-      setTimeout(() => {
-        console.log(`Function 2 is called`);
-      }, 2000);
-    }
+    // const fun2 = () => {
+    //   setTimeout(() => {
+    //     console.log(`Function 2 is called`);
+    //   }, 2000);
+    // }
 
-    const fun1 = () => {
-      console.log(`Function 1 is called`);
-      fun2();
-      console.log(`Function 1 is called again ✌️`);
-    }
-    fun1();
+    // const fun1 = () => {
+    //   console.log(`Function 1 is called`);
+    //   fun2();
+    //   console.log(`Function 1 is called again ✌️`);
+    // }
+    // fun1();
+
+    //? Currying
+
+    const sum = (num1) => (num2) =>  (num3) => console.log(num1+num2+num3); 
+
+    sum(5)(3)(8);
+
+
+
 
      
     
