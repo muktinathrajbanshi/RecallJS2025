@@ -1887,27 +1887,38 @@
 
     //? CallBack Hell
 
-    setTimeout(() => {
-      console.log(`1 work is done`);
-      setTimeout(() => {
-        console.log(`2 work is done`);
-        setTimeout(() => {
-          console.log(`3 works is done`);
-          setTimeout(() => {
-            console.log(`4 works is done`);
-            setTimeout(() => {
-              console.log(`5 works is done`);
-              setTimeout(() => {
-                console.log(`6 works is done`);
-              }, 1000)
-            }, 1000)
-          }, 1000)
-        }, 1000)
-      }, 1000)
-    }, 1000)
+    // setTimeout(() => {
+    //   console.log(`1 work is done`);
+    //   setTimeout(() => {
+    //     console.log(`2 work is done`);
+    //     setTimeout(() => {
+    //       console.log(`3 works is done`);
+    //       setTimeout(() => {
+    //         console.log(`4 works is done`);
+    //         setTimeout(() => {
+    //           console.log(`5 works is done`);
+    //           setTimeout(() => {
+    //             console.log(`6 works is done`);
+    //           }, 1000)
+    //         }, 1000)
+    //       }, 1000)
+    //     }, 1000)
+    //   }, 1000)
+    // }, 1000)
 
 
+//? 👉 JSON.stringify turns a JavaScript object into JSON text and stores that JSON text in a string, eg:
 
+var my_object = { key_1: "some text", key_2: true, key_3: 5 };
+
+var object_as_string = JSON.stringify(my_object);
+// "{"key_1":"some text","key_2":true, "Key_3":5}"
+
+console.log(object_as_string);
+
+
+console.log(typeof(object_as_string));
+// "string"
 
      
     
