@@ -24,6 +24,8 @@ h3 {
 .joke {
   font-family: "Caveat", cursive;
   font-size: 1.5rem;
+  text-align: center;
+  padding: 0 2rem;
 }
 
 .container {
