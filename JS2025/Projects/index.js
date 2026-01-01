@@ -1920,6 +1920,17 @@ console.log(object_as_string);
 console.log(typeof(object_as_string));
 // "string"
 
+//? 👉 JSON.parse turns a string of JSON text into a JavaScript object, eg:
+
+var object_as_string_as_object = JSON.parse(object_as_string);
+// {key_1: "some text", key_2: true, key_3: 5}
+
+console.log(object_as_string_as_object);
+
+
+console.log(typeof(object_as_string_as_object));
+// "object"
+
      
     
     
