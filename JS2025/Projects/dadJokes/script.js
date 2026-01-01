@@ -1,5 +1,3 @@
- // PROMISES 
-// GET https://icanhazdadjoke.com/
 
 const jokes = document.querySelector("#joke");
 const jokeBtn = document.querySelector("#jokeBtn");
