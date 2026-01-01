@@ -5,7 +5,14 @@ const jokes = document.querySelector("#joke");
 const jokeBtn = document.querySelector("#jokeBtn");
 
 const generateJokes = () => {
-    fetch("https://icanhazdadjoke.com/")
+
+    const setHeader = {
+        headers: {
+            Accept : "application/json"
+        }
+    }
+
+    fetch("https://icanhazdadjoke.com/", setHeader)
     .then((res) => {
         console.log(res.json());
     }).catch((error) => {
