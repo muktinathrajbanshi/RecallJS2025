@@ -7,6 +7,7 @@ const tempLoad = () => {
 
     setTimeout(() => {
         temp.innerHTML = "&#xf2ca";
+        temp.style.color = "#f8b627";
     }, 1000);
 
      setTimeout(() => {
@@ -16,6 +17,11 @@ const tempLoad = () => {
      setTimeout(() => {
         temp.innerHTML = "&#xf2c8";
     }, 3000);
+
+     setTimeout(() => {
+        temp.innerHTML = "&#xf2c7";
+        temp.style.color = "#d63031";
+    }, 4000);
 
 }
 
