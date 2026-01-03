@@ -7,8 +7,13 @@ const calculateTemp = () => {
     const valueTemp = tempSelected.options[tempSelected.selectedIndex].value;
 
     const celToFah = (cel) => {
-        let fahrenheit = Math.round(((cel * 9 )/5)+32);
+        let fahrenheit = Math.round((cel * 9/5)+32);
         return fahrenheit;
+    }
+
+    const fehToCel = (feh) => {
+        let celsius = Math.round((feh -32) * 5/9);
+        return celsius;
     }
 
     let result;
