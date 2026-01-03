@@ -5,17 +5,20 @@ const calculateTemp = () => {
     
     const tempSelected = document.getElementById("temp_diff");
     const valueTemp = tempSelected.options[tempSelected.selectedIndex].value;
-    // console.log(valueTemp);
 
-    var result;
+    const celToFah = (cel) => {
+        let fahrenheit = Math.round(((cel * 9 )/5)+32);
+        return fahrenheit;
+    }
+
+    let result;
 
     if(valueTemp == "cel") {
         result = celToFah(numberTemp);
-        document.getElementById("resultContainer").innerHTML = `= ${result} °Celsius`;
-    } else {
-        result = fehtoCel(numberTemp);
-        document.getElementById("resultContainer").innerHTML = `= ${result} °Celsius`;
-    }
-    
+        document.getElementById("resultContainer").innerHTML = `= ${result}°Fahrenheit`;
+    }else{
+        result = fehToCel(numberTemp);
+        document.getElementById("resultContainer").innerHTML = `= ${result}°Celsius`;
+    }    
 
 }
