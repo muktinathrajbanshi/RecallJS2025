@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Flamenco&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,500;1,500&family=Pacifico&family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&family=Poppins:wght@500;600;700;800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,4 +12,32 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+input {
+  width: 3rem;
+  margin-left: 0.5rem;
+}
+
+label {
+  font-size: 1.3rem;
+  color: #f7f1e3;
+
+  font-family: "Cormorant Garamond", serif;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b33939;
+  width: 35rem;
+  height: 8rem;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 0 18px rgba(255, 255, 255, 0.5);
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
 }
