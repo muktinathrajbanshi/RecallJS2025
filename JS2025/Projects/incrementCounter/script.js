@@ -16,3 +16,22 @@ counter.forEach((counter) => {
     updateCounter();
     
 })
+
+
+
+
+
+
+
+
+
+//? There are several ways to achieve it:
+
+//? Using the unary plus operator:
+// var n = +str;
+
+//? The Number constructor:
+// var n = Number(str);
+
+//? The parseFloat function:
+// var n = parseFloat(str);
