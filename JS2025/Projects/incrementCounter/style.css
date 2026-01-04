@@ -27,3 +27,8 @@ body {
 .counter-container span {
   font-size: 1.4rem;
 }
+
+.counter {
+  font-size: 3rem;
+  color: #f39c12;
+}
