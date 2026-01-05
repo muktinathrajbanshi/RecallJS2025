@@ -158,16 +158,15 @@ button:hover .button-text {
 .notes-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
-  margin-top: 7rem;
+  gap: 1.5rem;
+  margin-top: 1rem;
 }
 
 .note {
   background-color: #fff;
   margin: 30px 20px;
   height: 200px;
-  width: 100%;
+  width: 90%;
   overflow-y: scroll;
   margin-top: 7rem;
   box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1),
