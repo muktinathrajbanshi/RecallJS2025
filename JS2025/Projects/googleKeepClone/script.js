@@ -1,6 +1,6 @@
 const addButton = document.querySelector("#add");
 
-const addNewNote = (text = '') => {
+const addNewNote = (text = 'muktinath') => {
     const note = document.createElement("div");
     const notesContainer = document.querySelector(".notes-container");
 
@@ -12,8 +12,8 @@ const addNewNote = (text = '') => {
         <button class="delete"><i class="fas fa-trash-alt"></i></button>
         </div>
 
-        <div class="main"></div>
-        <textarea class=""></textarea> `;
+        <div class="main ${text ? "" : "hidden" } "></div>
+        <textarea class="${text ? "hidden" : "" } "></textarea> `;
 
         note.insertAdjacentHTML("afterbegin", htmlData);
         // console.log(note);
@@ -29,6 +29,9 @@ const addNewNote = (text = '') => {
         delButton.addEventListener("click", () => {
             note.remove();
         })
+
+        // toggle using edit button 
+        
 
 
         notesContainer.appendChild(note);
