@@ -1,5 +1,15 @@
 const addButton = document.querySelector("#add");
 
+const updateLSData = () => {
+    const textAreaData = document.querySelectorAll("textarea");
+     const notes = [];
+
+     textAreaData.forEach(() => {
+        return notes.push(note.value);
+     })
+}
+
+
 const addNewNote = (text = '') => {
     const note = document.createElement("div");
     const notesContainer = document.querySelector(".notes-container");
@@ -40,7 +50,10 @@ const addNewNote = (text = '') => {
 
         textArea.addEventListener("change", (event) => {
             const value = event.target.value;
-            console.log(value);
+            mainDiv.innerHTML = value;
+
+
+            updateLSData();
             
         })
 
