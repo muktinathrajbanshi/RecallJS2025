@@ -42,6 +42,7 @@ const addNewNote = (text = '') => {
         // deleting the node 
         delButton.addEventListener("click", () => {
             note.remove();
+            updateLSData();
         })
 
         // toggle using edit button 
